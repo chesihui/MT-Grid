@@ -1,0 +1,13 @@
+/**
+ * mytaobao 布局
+ */
+@import '../../../stylesheets/scss/grid.scss';
+
+//整体保持传统布局
+@import 'home-layout-normal.scss';
+
+//右侧液体布局代码
+@import 'home-layout-fluid.scss';
+
+//响应式代码
+@import 'responsive.scss';

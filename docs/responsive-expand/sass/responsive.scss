@@ -1,0 +1,32 @@
+/**
+ * 响应式代码块
+ */
+
+//ipad 竖屏
+@media only screen and (max-width: 768px) {
+	
+	#userinfo, 
+	#butler {
+		@include column(21);
+	}
+
+	#app1,
+	#app2,
+	#app3,
+	#app4,
+	#app5,
+	#app6{
+		@include column(10.5);
+	}
+}
+//iphone 横屏
+@media only screen and (max-width: 480px) {
+
+	.col-sub{display:none}	
+	.main-wrap{margin-left:0px}
+}
+ 
+ 
+@media only screen and (max-width: 320px) {
+
+}

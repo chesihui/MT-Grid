@@ -1,0 +1,124 @@
+/**
+ * mytaobao 布局
+ */
+/**
+ * 传统布局代码块
+ */
+#layout-center {
+  max-width: 995px;
+  *width: 995px;
+  margin: 0 auto;
+  overflow: hidden; }
+
+#top {
+  max-width: 990px;
+  *width: 990px;
+  margin-bottom: 1em; }
+
+.grid-c2 {
+  *zoom: 1; }
+  .grid-c2:before, .grid-c2:after {
+    content: "";
+    display: table; }
+  .grid-c2:after {
+    clear: both; }
+
+h3 {
+  background: #eee;
+  height: 100%;
+  font-size: 18px; }
+
+h2 {
+  margin-bottom: 1em; }
+
+.col-sub {
+  width: 150px;
+  float: left;
+  margin-left: -100%;
+  height: 800px;
+  *zoom: 1; }
+
+.col-main {
+  float: left;
+  width: 100%;
+  min-height: 1px; }
+
+.main-wrap {
+  margin-left: 155px;
+  max-width: 840px;
+  *width: 840px;
+  *zoom: 1;
+  overflow: hidden;
+  background: url("../../docs/assets/img/1000_25_5_5.png") left top repeat-y; }
+
+/**
+ * 布局代码块
+ */
+#userinfo {
+  display: inline;
+  float: left;
+  width: 65.47619%;
+  margin: 0 0.59524%;
+  *width: 65.42411%;
+  *margin: 0 0.54315%; }
+
+#butler {
+  display: inline;
+  float: left;
+  width: 32.14286%;
+  margin: 0 0.59524%;
+  *width: 32.09077%;
+  *margin: 0 0.54315%; }
+
+#material {
+  display: inline;
+  float: left;
+  width: 98.80952%;
+  margin: 0 0.59524%;
+  *width: 98.75744%;
+  *margin: 0 0.54315%; }
+
+#app1,
+#app2,
+#app3,
+#app4,
+#app5,
+#app6 {
+  display: inline;
+  float: left;
+  width: 32.14286%;
+  margin: 0 0.59524%;
+  *width: 32.09077%;
+  *margin: 0 0.54315%; }
+
+/**
+ * 响应式代码块
+ */
+@media only screen and (max-width: 768px) {
+  #userinfo,
+  #butler {
+    display: inline;
+    float: left;
+    width: 98.80952%;
+    margin: 0 0.59524%;
+    *width: 98.75744%;
+    *margin: 0 0.54315%; }
+
+  #app1,
+  #app2,
+  #app3,
+  #app4,
+  #app5,
+  #app6 {
+    display: inline;
+    float: left;
+    width: 48.80952%;
+    margin: 0 0.59524%;
+    *width: 48.75744%;
+    *margin: 0 0.54315%; } }
+@media only screen and (max-width: 480px) {
+  .col-sub {
+    display: none; }
+
+  .main-wrap {
+    margin-left: 0px; } }

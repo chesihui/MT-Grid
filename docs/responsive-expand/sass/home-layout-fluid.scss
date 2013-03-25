@@ -1,0 +1,33 @@
+/**
+ * 布局代码块
+ */
+
+// Specify the number of columns and set column and gutter widths
+$columns: 21;
+$column-width: 30px;
+$gutter-width: 10px;
+
+//fluid:100%,fixed:1000px; 
+$total-width: 100%;
+
+//fix for ie6&ie7; 
+$min-width: 1000px;
+
+//layout 
+#userinfo { 
+	@include column(14);
+}
+#butler{
+	@include column(7);
+}
+#material{
+	@include column(21);
+}
+#app1,
+#app2,
+#app3,
+#app4,
+#app5,
+#app6{
+	@include column(7);
+}

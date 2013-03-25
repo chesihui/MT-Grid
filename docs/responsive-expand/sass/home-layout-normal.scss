@@ -1,0 +1,48 @@
+/**
+ * 传统布局代码块
+ */
+
+#layout-center{
+	max-width:995px;
+	*width:995px;
+	margin:0 auto;
+	overflow:hidden;
+}
+#top{
+	max-width:990px;
+	*width:990px;
+	margin-bottom: 1em;
+}
+.grid-c2{
+	@include clearfix();
+}
+h3{
+	background:#eee;
+	height:100%;
+	font-size:18px;
+}
+h2{
+	margin-bottom:1em;	
+}
+
+.col-sub {
+	width: 150px;
+	float:left;
+	margin-left: -100%;
+	height:800px;
+	*zoom:1;
+}
+.col-main {
+	float:left;
+	width:100%;
+	min-height:1px;
+}
+.main-wrap {
+	margin-left: 155px;
+	max-width:840px;
+	*width:840px;
+	*zoom:1;
+	overflow:hidden;
+	background: url("../../docs/assets/img/1000_25_5_5.png") left top repeat-y;
+
+}
