@@ -19,14 +19,10 @@
 		@include column(10.5);
 	}
 }
-//iphone 横屏
+//iphone 横屏/竖版
 @media only screen and (max-width: 480px) {
 
 	.col-sub{display:none}	
 	.main-wrap{margin-left:0px}
 }
  
- 
-@media only screen and (max-width: 320px) {
-
-}
