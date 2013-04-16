@@ -55,7 +55,7 @@ $correction: 0.5 / $min-width * 100 * 1%;
 	width: $total-width*(((($gutter-width+$column-width)*$x)-$gutter-width) / gridsystem-width($columns));
 	margin: 0 $total-width*(($gutter-width*.5)/gridsystem-width($columns));
 	@if $total-width == 100% {
-		@include column-fix-ie6-ie7($x);	
+		@include column-fix-ie6-ie7($x,$columns:$columns);	
 	}
 }
 @mixin push($offset:1) {
@@ -64,7 +64,7 @@ $correction: 0.5 / $min-width * 100 * 1%;
 @mixin pull($offset:1) {
 	margin-right: $total-width*((($gutter-width+$column-width)*$offset) / gridsystem-width($columns)) + $total-width*(($gutter-width*.5)/gridsystem-width($columns));
 }
-@mixin column-fix-ie6-ie7($x) {
+@mixin column-fix-ie6-ie7($x,$columns:$columns) {
 	*width: $total-width*(((($gutter-width+$column-width)*$x)-$gutter-width) / gridsystem-width($columns))-$correction;
 	*margin: 0 $total-width*(($gutter-width*.5)/gridsystem-width($columns))-$correction;
 }
