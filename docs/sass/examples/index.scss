@@ -1,0 +1,274 @@
+@import 'compass';
+@import 'compass/reset';
+@import 'compass/css3';
+
+@import "icons/*.png";
+@include all-icons-sprites;
+
+
+// //////////////////////
+// CONFIG
+// //////////////////////
+
+@import 'grid/grid';
+
+$container_margin: 3.85%;
+$gutter_width: 3.85%;
+$column-width: 4.8%;
+$columns: 12;
+$total_width: 100%;
+$max_width: 1233px;
+
+
+// //////////////////////
+// MODULE STYLES
+// //////////////////////
+$color_yellow: #fff200;
+$color_nearlyblack: #252525;
+$color_nearlynearlyblack: #454545;
+$color_body: #636363;
+$color_headlines: #b7b7b7;
+@import "examples/modules/public";
+#reference{
+	
+	ul{
+		@include clearfix();
+		@include container();
+		max-width: $max_width;
+		
+
+		li{
+			@include column(12);
+			margin:10px 0px;
+
+			h4{
+				font-family: 'Raleway', Arial, sans-serif;
+				font-weight: 900;
+				font-size: 21px;
+				padding-top: 0px;
+				padding-bottom: 13px;
+				color: $color_nearlynearlyblack;
+			}
+
+			pre{
+				font-family: "Courier New", Courier, Georgia, serif;
+				background: white;
+				padding: 20px;
+				margin-bottom: 17px;
+				word-wrap:break-word;
+				color: $color_nearlynearlyblack;
+
+				span{
+					font-family: "Courier New", Courier, Georgia, serif;
+					opacity: 0.7;
+					color: $color_nearlynearlyblack;
+		  			filter: alpha(opacity = 70);
+				}
+			}
+
+			span{
+				font-size: 16px;
+				line-height: 22px;
+				color: $color_body;
+				font-family: Arial, sans-serif;
+				font-weight: normal;
+			}
+
+		}
+
+	}
+	
+} 
+
+
+// ///////////////////////////
+// MEDIA QUERIES
+// ///////////////////////////
+
+
+@media screen and (min-width: 900px) {
+	#reference ul{
+		li{
+			@include column(6);
+
+		}
+
+	}
+}
+#examples{
+	width: $total_width;
+	max-width: $max_width;
+	margin: 0 auto;	
+
+	ul{
+		@include container();
+		@include clearfix();
+		
+
+		li{
+			@include column(12);
+			height:350px;
+
+			a{
+				text-decoration: none;
+				font-family: Arial, sans-serif;
+				font-weight: normal;
+				color: $color_body;
+
+				h4{
+					font-family: 'Raleway', Arial, sans-serif;
+					font-weight: 900;
+					font-size: 21px;
+					padding-top: 25px;
+					padding-bottom: 13px;
+					color: $color_nearlynearlyblack;
+
+					display: inline-block;
+					padding-bottom: 3px;
+					margin-bottom: 10px;
+				}
+			}
+
+			a:hover{
+				text-decoration: none;
+
+				h3{
+					border-bottom: 1px dotted #454545;
+					padding-bottom: 2px;
+				}
+			}
+
+			
+
+			span{
+				font-size: 16px;
+				line-height: 22px;
+				color: $color_body;
+				font-family: Arial, sans-serif;
+				font-weight: normal;
+				display: block;
+				padding-bottom: 30px;
+			}
+
+			img{
+				width: 100%;
+			}
+		}
+	}
+} 
+
+// ///////////////////////////
+// MEDIA QUERIES
+// ///////////////////////////
+
+@media screen and (min-width: 460px) {
+	#examples ul {
+		li{
+			@include column(6);
+			height:320px;
+			span{
+				padding-bottom: 10px;
+			}
+		}
+	}
+
+}
+
+@media screen and (min-width: 550px) {
+
+}
+
+@media screen and (min-width: 700px) {
+	#examples ul {
+		li{
+			height:350px;
+			span{
+				padding-bottom: 10px;
+			}
+		}
+	}
+}
+
+
+
+@media screen and (min-width: 900px) {
+	#examples ul {
+		li{
+			@include column(3);
+			height:300px;
+			span{
+				padding-bottom: 0px;
+			}
+		}
+	}
+}
+#downloads{
+
+	ul{
+		@include clearfix();
+		@include container();
+		max-width: $max_width;
+	}	
+
+	li{
+		@include column(12);
+		text-align: center;
+	}
+
+	li a{
+		border: 2px solid #2c4ceb;
+		@include border-radius(5px);
+		display: block;
+		padding: 33px;
+		font-family: Arial, sans-serif;
+		color: white;
+		text-decoration: none;
+		font-weight: bold;
+		font-size: 12px;
+		@include transition(0.25s ease-out);
+		background: #2c4ceb;
+		margin:10px 0px;
+	}
+
+	li a:hover{
+		background: white;
+		color: #2c4ceb;
+	}
+	li.design{
+		@include column(12);
+		a {
+			font-size:26px;
+		}
+	}	
+} 
+
+// ///////////////////////////
+// MEDIA QUERIES
+// ///////////////////////////
+
+@media screen and (min-width: 460px) {
+	#downloads ul li a{
+		font-size: 14px;
+	}
+	
+}
+
+@media screen and (min-width: 550px) {
+}
+
+@media screen and (min-width: 700px) {
+	#downloads ul{
+		li{
+			@include column(3);
+		}
+
+	}
+}
+
+
+
+@media screen and (min-width: 900px) {
+	#downloads ul li a{
+		font-size: 16px;
+	}
+}

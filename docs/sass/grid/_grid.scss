@@ -1,0 +1,129 @@
+/**
+ * @url http://www.profoundgrid.com
+ * @url http://www.weareprofound.com 
+ */
+@import "compass/utilities/general/clearfix";
+
+////////////////////////////////////////////////////////////////////////////////
+// Defaults (feel free to override)
+////////////////////////////////////////////////////////////////////////////////
+
+// Defaults which you can freely override
+$column-width: 4%;
+$gutter-width: 1%;
+$columns: 20;
+$total-width: 100%;
+
+// Uncomment these two lines and the star-hack width/margin lines below to enable sub-pixel fix for IE6 & 7. See http://tylertate.com/blog/2012/01/05/subpixel-rounding.html
+$min-width: 960;
+$correction: 0.5 / $min-width * 100 * 1%;
+
+$container_margin: 1%;
+
+$class_row:	'row';
+$class_column:'col';
+$class_push:'push';
+$class_pull:'pull';	
+
+////////////////////////////////////////////////////////////////////////////////
+// GRID MATH
+////////////////////////////////////////////////////////////////////////////////
+
+// Utility function — you should never need to modify this
+@function gridsystem-width($columns:$columns) {
+	@return ($column-width * $columns) + ($gutter-width * $columns);
+}
+
+
+////////////////////////////////////////////////////////////////////////////////
+// BASIC MIXINS
+////////////////////////////////////////////////////////////////////////////////
+
+@mixin row($columns:$columns) {
+	display: block;
+	width: $total-width*(($gutter-width + gridsystem-width($columns))/gridsystem-width($columns));
+	margin: 0 $total-width*((($gutter-width*.5)/gridsystem-width($columns))*-1);
+	@if $total-width == 100% {
+		@include row-fix-ie6-ie7($columns:$columns);	
+	}
+	@include clearfix();
+}
+//@param x {num} 列数
+//@param columns {num} 父级列数,默认初始值
+@mixin column($x,$columns:$columns) {
+	display: inline;
+	float: left;
+	width: $total-width*(((($gutter-width+$column-width)*$x)-$gutter-width) / gridsystem-width($columns));
+	margin-left: $total-width*(($gutter-width*.5)/gridsystem-width($columns));
+	margin-right: $total-width*(($gutter-width*.5)/gridsystem-width($columns));
+	@if $total-width == 100% {
+		@include column-fix-ie6-ie7($x,$columns:$columns);	
+	}
+}
+@mixin push($offset:1) {
+	margin-left: $total-width*((($gutter-width+$column-width)*$offset) / gridsystem-width($columns)) + $total-width*(($gutter-width*.5)/gridsystem-width($columns));
+}
+@mixin pull($offset:1) {
+	margin-right: $total-width*((($gutter-width+$column-width)*$offset) / gridsystem-width($columns)) + $total-width*(($gutter-width*.5)/gridsystem-width($columns));
+}
+@mixin column-fix-ie6-ie7($x,$columns:$columns) {
+	*width: $total-width*(((($gutter-width+$column-width)*$x)-$gutter-width) / gridsystem-width($columns))-$correction;
+	*margin-right: $total-width*(($gutter-width*.5)/gridsystem-width($columns))-$correction;
+	*margin-left: $total-width*(($gutter-width*.5)/gridsystem-width($columns))-$correction;
+}
+@mixin row-fix-ie6-ie7($columns:$columns) {
+	*width: $total-width*(($gutter-width + gridsystem-width($columns))/gridsystem-width($columns))-$correction;
+	*margin-left: $total-width*((($gutter-width*.5)/gridsystem-width($columns))*-1)-$correction;
+	*margin-right: $total-width*((($gutter-width*.5)/gridsystem-width($columns))*-1)-$correction;
+}
+
+@mixin container(){
+	width: container_width(); 
+	margin: 0 $container_margin;
+}
+
+////////////////////////////////////////////////////////////////////////////////
+// HELPER CLASSES
+////////////////////////////////////////////////////////////////////////////////
+
+@mixin generate_helper_classes(){
+
+	/* Helper Class: Columns */ 
+	@for $i from 1 through $columns{
+		.#{$class_column}#{$i} {
+			@include column($i)
+		}
+	}
+
+	/* Helper Class: Rows */ 
+	@for $i from 1 through $columns{
+		.#{$class_row}#{$i} {
+			@include row($i)
+		}
+	}
+	/* Helper Class: Columns && Parent Columns */ 
+	@for $i from 1 through $columns{
+			
+		@for $j from $i through $columns{
+			.#{$class_column}#{$i}-#{$j} {
+				@include column($i,$j)
+			}
+		}
+	}
+
+	/* Helper Class: push */ 
+	@for $i from 1 through ($columns - 1){
+		.#{$class_push}#{$i} {
+			@include push($i);
+		}
+	}
+	/* Helper Class: pull */ 
+	@for $i from 1 through ($columns - 1){
+		.#{$class_pull}#{$i} {
+			@include pull($i);
+		}
+	}
+
+}
+
+

@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8" />
+		<title>MT Grid | A grid system for fixed and fluid layouts</title>
+		
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+		<meta name="viewport" content="initial-scale=1,minimum-scale=1,width=device-width">
+
+	    <!-- Javascript -->
+        <script type="text/javascript" src="docs/js/jquery-1.8.3.min.js"></script>
+
+	    <!-- Stylesheets -->
+	    <link href='http://fonts.googleapis.com/css?family=Raleway:500,900,200' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="docs/css/examples/index.css" type="text/css" media="screen" />
+
+
+
+		<!--[if lt IE 9]>
+			<script type="text/javascript" src="/js/html5shiv.js"></script>
+			<script type="text/javascript" src="/js/selectivizr.js"></script>
+			<script type="text/javascript" src="/js/respond.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<nav>
+			<div class="center">
+				<ul>
+					<li>
+						<a href='#' title="Show/Hide Grid" id="gridButton" onclick="return false;">Show/Hide Grid</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+        <!-- Header -->
+        <header>
+            <div class="center">
+                <h1>MT-Grids</h1>
+				<h2>一个默认20列990px宽的栅格系统，支持sass、less、css。提供固态、流体、混合、响应式布局，兼容ie6 + 、 chrome。</h2>
+            </div>
+        </header>
+
+		<!-- Features -->	
+		<article id="downloads">
+			<ul>
+				<li class="design">
+					<a href="docs/img/grid.png" target="_blank">How to design a grid system ?</a>
+				</li>
+			</ul>
+		</article>
+		<article id="examples">
+			<h3 class="seperator">EXAMPLES</h3>
+			<ul>
+				<li>
+					<a href="docs/examples/fixed.html">
+						<img src="docs/img/example_grid_fixed.png" />
+						<h4>Fixed</h4>
+					</a>
+					<span>固定的网格系统，列宽、列间距为固定。</span>
+				</li>
+				<li>
+					<a href="docs/examples/responsivefixed.html">
+						<img src="docs/img/example_grid_fixedresp.png" />
+						<h4>Responsive Fixed</h4>
+					</a>
+					<span>增加media query来适配屏幕宽度的响应式固定网格系统.</span>
+				</li>
+				<li>
+					<a href="docs/examples/fluid.html">
+						<img src="docs/img/example_grid_fluid.png" />
+						<h4>Fluid</h4>
+					</a>
+					<span>流体网格系统，百分比适应屏幕。</span>
+				</li>
+				<li>
+					<a href="docs/examples/maxwidthfluid.html">
+						<img src="docs/img/example_grid_maxw.png" />
+						<h4>Max-Width Fluid</h4>
+					</a>
+					<span>增加最大宽度的流体网格系统。</span>
+				</li>
+				<li>
+					<a href="docs/examples/responsivefluid.html">
+						<img src="docs/img/example_grid_fluidresp.png" />
+						<h4>Responsive Fluid</h4>
+					</a>
+					<span>响应式适配的流体网格系统。</span>
+				</li>
+				<li>
+					<a href="docs/examples/mixed.html">
+						<img src="docs/img/example_grid_mixed.png" />
+						<h4>Mixed Grids</h4>
+					</a>
+					<span>混合网格，包括流体与固定的结合。</span>
+				</li>
+				<li>
+					<a href="docs/examples/nested.html">
+						<img src="docs/img/example_grid_nested.png" />
+						<h4>Nested Grids</h4>
+					</a>
+					<span>具有内嵌的网格系统。</span>
+				</li>
+				<li>
+					<a href="docs/examples/pushpull.html">
+						<img src="docs/img/example_grid_multiple.png" />
+						<h4>Push/Pull</h4>
+					</a>
+					<span>拥有缩进或者空余的网格系统。</span>
+				</li>
+			</ul>
+		</article>
+
+		<article id="downloads">
+			<h3 class="seperator">DOWNLOADS</h3>
+			<ul>
+				<li><a href="stylesheets/grid.scss">Download grid.scss</a></li>
+				<li><a href="stylesheets/grid.less">Download grid.less</a></li>
+				<li><a href="stylesheets/grid.css">Download grid.css</a></li>
+				<li><a href="stylesheets/grid.css">Source on github</a></li>
+			</ul>
+		</article>
+
+		<article id="reference">
+			<h3 class="seperator">REFERENCE</h3>
+			<ul>
+				<li>
+					<h4>Total Width</h4>
+					<pre>$total_width: 100%; <span>// px or %</span></pre>
+					<span>grid宽度.如果设置100%，将按照流体网格的百分比方式计算。</span>
+				</li>
+				<li>
+					<h4>Total Columns</h4>
+					<pre>$total_columns: 20; <span>// number</span></pre>
+					<span>grid的栅格系统的总列数。</span>
+				</li>
+				<li>
+					<h4>Gutter Width</h4>
+					<pre>$gutter_width: 1%;  <span>// px or %</span></pre>
+					<span>定义grid的列距宽度，可以是px 或者 px。</span>
+				</li>
+				<li>
+					<h4>Helper Classes</h4>
+					<pre>$class_column: 'col';<br/>$class_push: 'push';<br/>$class_pull: 'pull';</pre>
+					<span>设置grid最后生成css的classname。需要调用helper_classes(),或者直接下载生成好的grid.css</span>
+				</li>
+				<li>
+					<h4>Mixin: Helper Classes</h4>
+					<pre><span>//helper_classes()</span><br/>@include helper_classes();</pre>
+					<span>调用此方法可以生成对应grid的class， 默认的classnames是: .colx, .colx-x, .pushx, .pullx</span>
+				</li>
+				<li>
+					<h4>Mixin: Column</h4>
+					<pre><span>//column($_column_index, $columns:$columns)</span><br/>.col{ @include column(3,17); }</pre>
+					<span>计算一个容易的宽度。$_column_index：所占栅格数，$colums:父容器的栅格数，默认为初始的$colums.</span>
+				</li>
+				<li>
+					<h4>Mixin: Row</h4>
+					<pre><span>//row($_column_index)</span><br/>.row{ @include row(17); }</pre>
+					<span>设置一个需要内嵌几个栅格列数的容器。</span>
+				</li>
+				<li>
+					<h4>Mixin: Push</h4>
+					<pre><span>//push($_column_index)</span><br/>.col{ @include push(1); }</pre>
+					<span>设置一个容易将margin-left几个栅格数。</span>
+				</li>
+				<li>
+					<h4>Mixin: Pull</h4>
+					<pre><span>//push($_column_index)</span><br/>.col{ @include pull(2); }</pre>
+					<span>设置一个容易将margin-right几个栅格数。</span>
+				</li>
+			</ul>
+		</article>
+
+		
+        <footer>
+            <div class="center">
+                <h3>BUILT BY</h3>
+                <section id="company">
+                    <a href="http://www.taobao.com">TAOBAO-MT</a>
+                </section>
+                <section id="meta">
+                    <div>Copyright &copy; 2013-2014 Mytaobao Creative Studio LLC. All rights reserved. </div>
+                </section>
+            </div>
+        </footer>
+
+		<script type="text/javascript">
+
+			// TOGGLE GRID
+			$('#gridButton').click(function(){
+				if($('#grid').length == 0) {
+					var height = $('body').height();
+					var html = '<article id="grid"><div class="overlay"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></article>';
+					$('body').prepend(html);
+					$('#grid div').css('height', height);
+				}else{
+					$('#grid').remove();
+				}
+			});
+
+			$(window).resize(function() {
+				if($('#grid').length > 0) {
+					var height = $('body').height();
+					$('#grid div').css('height', height);
+				}
+			});
+
+			// CHANGE GRID OVERLAY BEHAVIOUR FOR BROWSERS
+			// THAT DONT SUPPORT "pointer-events: none;" CSS
+			if ($.browser.msie || $.browser.opera) {
+			  $('#grid').live('click', function(){
+			  	$('#grid').remove();
+			  });
+			}
+
+			
+
+			// TOOLTIP
+			var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent);
+			$('nav a').hover(function(){
+				if (isMobile == false){
+					var pos = $(this).offset();
+	                var title = $(this).attr('title');
+	                if ($.trim(title) == ''){
+	                	return;
+	                }
+	                $(this).data('tipText', title).removeAttr('title');
+	                if($('.tooltip').length == 0) {
+	                	var html = '<p class="tooltip"></p>';
+	                	$('body').append(html);
+	                }
+	                $('.tooltip').html('<div class="arrow"></div><div>'+title+'</div>');
+	                $('.tooltip').css('top', pos.top+55).css('left', pos.left+25);
+	                var width = $('.tooltip').outerWidth();
+	                $('.tooltip').css('margin-left', 0-width*0.5);
+	                $('.tooltip').addClass('show');
+				}
+	        }, function() {
+	        	if (isMobile == false){
+	            	$('.tooltip').removeClass('show');
+	            	$(this).attr('title', $(this).data('tipText'));
+	            }
+	        });
+
+			
+		</script>
+		<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-9052680-6']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
+		</script>
+	</body>
+
+</html>

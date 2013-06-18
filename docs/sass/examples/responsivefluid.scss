@@ -1,0 +1,118 @@
+@import 'compass';
+@import 'compass/reset';
+@import 'compass/css3';
+
+@import "icons/*.png";
+
+@include all-icons-sprites;
+
+@import 'grid/grid';
+
+/////////////////////
+// 定义grid的class
+// 默认为col* = columns(*)
+/////////////////////
+@include generate_helper_classes();
+
+// //////////////////////
+// demo使用 
+// //////////////////////
+$color_yellow: #0099ff;
+$color_nearlyblack: #252525;
+$color_nearlynearlyblack: #454545;
+$color_body: #636363;
+$color_headlines: #fff;
+$container_margin: 1%;
+$max_width: 100%;
+
+@import "examples/modules/public";
+
+footer {
+	width: 100%;
+}
+
+footer .center{
+	margin: 0 auto;
+}
+
+article{
+	margin-bottom: $gutter_width;
+}
+
+article div{
+	height: 38px;
+	margin-top:10px;
+	margin-bottom:10px;
+	background: $color_yellow;
+	font-family: 'Raleway', Arial, sans-serif;
+	font-size: 24px;
+	text-align: center;
+	color: $color_nearlynearlyblack;
+	line-height: 38px;
+}
+
+.container{
+	max-width:$max_width;
+	margin:0 auto;
+	@include clearfix();
+	img {
+		@include column(20);	
+		float:none;
+	}
+}
+.des {
+	position:relative;
+	margin-top:30px;
+	z-index:9999;
+}
+#grid{
+	margin-bottom: 0px;
+	height: 0px;
+	z-index: 1px;
+
+	div{
+		background: none;
+
+		div{
+			background: black;
+		}
+	}
+}
+
+
+// ///////////////////////////
+// MEDIA QUERIES
+// ///////////////////////////
+
+@media screen and (max-width: 800px) {
+
+	/* Helper Class: Columns */ 
+	.col1 {
+		@include column(2);
+	}
+	.col2 {
+		@include column(4);
+	}
+	
+}
+
+@media screen and (max-width: 600px) {
+
+	@for $i from 1 through 20{
+		.#{$class_column}#{$i} {
+			@include column(10)
+		}
+	}
+
+}
+
+@media screen and (max-width: 400px) {
+
+	/* Helper Class: Columns */
+	@for $i from 1 through $columns{
+		.#{$class_column}#{$i} {
+			@include column(20)
+		}
+	}
+}
+

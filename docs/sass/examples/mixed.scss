@@ -1,0 +1,162 @@
+@import 'compass';
+@import 'compass/reset';
+@import 'compass/css3';
+
+@import "icons/*.png";
+
+@include all-icons-sprites;
+
+@import 'grid/grid';
+
+/////////////////////
+// 定义grid的class
+// 默认为col* = columns(*)
+/////////////////////
+@include generate_helper_classes();
+
+// //////////////////////
+// demo使用 
+// //////////////////////
+$color_yellow: #0099ff;
+$color_nearlyblack: #252525;
+$color_nearlynearlyblack: #454545;
+$color_body: #636363;
+$color_headlines: #fff;
+$container_margin: 1%;
+$max_width: 1000px;
+
+@import "examples/modules/public";
+
+footer {
+	width: 100%;
+}
+
+footer .center{
+	margin: 0 auto;
+}
+
+article{
+	margin-bottom: $gutter_width;
+}
+
+article div{
+	height: 38px;
+	margin-top:10px;
+	margin-bottom:10px;
+	background: $color_yellow;
+	font-family: 'Raleway', Arial, sans-serif;
+	font-size: 24px;
+	text-align: center;
+	color: $color_nearlynearlyblack;
+	line-height: 38px;
+}
+
+.container{
+	max-width:$max_width;
+	margin:0 auto;
+	@include clearfix();
+}
+.des {
+	position:relative;
+	margin-top:30px;
+	z-index:9999;
+}
+#grid{
+	margin-bottom: 0px;
+	height: 0px;
+	z-index: 1px;
+	max-width:850px !important;
+
+	div{
+		background: none;
+
+		div{
+			background: black;
+			@include column(1,17);
+		}
+	}
+}
+h2 {
+	font-family: Georgia;
+	font-size: 1.5em;
+	padding: 5.25em 0;
+	color: #666;
+	text-align: center;
+	border:1px #000 solid;
+}
+/**
+ * 传统布局代码块
+ */
+
+.grid-c2{
+	@include clearfix();
+}
+h2{
+	margin-bottom:1em;	
+}
+
+.col-sub {
+	overflow:hidden;
+	width:140px;
+	height:500px;
+	margin-left: -100%;
+	min-height: 1px;
+	*zoom:1;
+	background:#000;
+	line-height:300px;
+	h3{
+		height:100%;
+		font-size:18px;
+		color:#fff;
+	}
+	div{
+		background:none;
+	}
+	@extend .css3;	
+}
+.col-main {
+	float:left;
+	width:100%;
+	min-height:1px;
+	background:none;
+	margin:0px;
+	height:auto;
+	margin-top:0px;
+	position:relative;
+}
+.main-wrap {
+	position:relative;
+	background:none;
+	*width:850px;
+	*zoom:1;
+	overflow:hidden;
+	height:500px;
+	max-width:850px;
+	margin-top:0px;
+	@extend .css3;	
+	left:145px;
+
+}
+#mypanelbtn{
+	display:none;
+}
+/**
+ * 布局代码块
+ */
+// ///////////////////////////
+// MEDIA QUERIES
+// ///////////////////////////
+
+@media screen and (max-width: 600px) {
+
+	#mypanelbtn{
+		display:block;
+	}
+	.col-sub{
+		width:0px;
+	}
+	.main-wrap{
+		left:0px;
+	}
+}
+

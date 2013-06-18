@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8" />
+        <title>MT-Grid</title>
+        
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+        <meta name="viewport" content="initial-scale=1,minimum-scale=1,width=device-width">
+
+        <!-- Javascript -->
+        <script type="text/javascript" src="../js/jquery-1.8.3.min.js"></script>
+
+        <!-- Stylesheets -->
+        <link href='http://fonts.googleapis.com/css?family=Raleway:500,900,200' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="../css/examples/responsivefixed.css" type="text/css" media="screen" />
+
+
+        <!--[if lt IE 9]>
+            <script type="text/javascript" src="/js/html5shiv.js"></script>
+            <script type="text/javascript" src="/js/selectivizr.js"></script>
+            <script type="text/javascript" src="/js/respond.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+
+        <!-- Header -->
+        <header>
+            <div class="center">
+                <h1> Responsive Fixed Grid</h1>
+            </div>
+        </header>
+		
+		<nav>
+			<div class="center">
+				<ul>
+					<li>
+						<a href='#' title="Show/Hide Grid" id="gridButton" onclick="return false;">Show/Hide Grid</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<div class="container">
+			<article>
+				<div class="col1">1</div>
+				<div class="col1">1</div>
+				<div class="col1">1</div>
+				<div class="col1">1</div>
+				<div class="col1">1</div>
+				<div class="col1">1</div>
+				<div class="col1">1</div>
+				<div class="col1">1</div>
+				<div class="col1">1</div>
+				<div class="col1">1</div>
+				<div class="col1">1</div>
+				<div class="col1">1</div>
+				<div class="col1">1</div>
+				<div class="col1">1</div>
+				<div class="col1">1</div>
+				<div class="col1">1</div>
+				<div class="col1">1</div>
+				<div class="col1">1</div>
+				<div class="col1">1</div>
+				<div class="col1">1</div>
+				<div class="col2">2</div>
+				<div class="col2">2</div>
+				<div class="col2">2</div>
+				<div class="col2">2</div>
+				<div class="col2">2</div>
+				<div class="col2">2</div>
+				<div class="col2">2</div>
+				<div class="col2">2</div>
+				<div class="col2">2</div>
+				<div class="col2">2</div>
+				<div class="col4">4</div>
+				<div class="col4">4</div>
+				<div class="col4">4</div>
+				<div class="col4">4</div>
+				<div class="col4">4</div>
+				<div class="col5">5</div>
+				<div class="col5">5</div>
+				<div class="col5">5</div>
+				<div class="col5 last">5</div>
+				<div class="col20">20</div>
+			</article>
+		</div>
+        <footer>
+            <div class="center">
+                <h3>BUILT BY</h3>
+                <section id="company">
+                    <a href="http://i.taobao.com">MYTAOBAO</a>
+                </section>
+                <section id="meta">
+                    <div>Copyright &copy; 2013-2014 Mytaobao Creative Studio LLC. All rights reserved. </div>
+                </section>
+            </div>
+        </footer>
+        
+        <script type="text/javascript">
+			
+			function createGrid(){
+				var height = $('body').height();
+				var html = '<article id="grid"><div class="overlay"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></article>';
+				$('body').prepend(html);
+				$('#grid div').css('height', height);
+			}
+			createGrid();
+			
+            // TOGGLE GRID
+            $('#gridButton').click(function(){
+                if($('#grid').length == 0) {
+					createGrid();
+                }else{
+                    $('#grid').remove();
+                }
+            });
+
+            $(window).resize(function() {
+                if($('#grid').length > 0) {
+                    var height = $('body').height();
+                    $('#grid div').css('height', height);
+                }
+            });
+
+            // CHANGE GRID OVERLAY BEHAVIOUR FOR BROWSERS
+            // THAT DONT SUPPORT "pointer-events: none;" CSS
+            if ($.browser.msie || $.browser.opera) {
+              $('#grid').live('click', function(){
+                $('#grid').remove();
+              });
+            }
+
+            // TOOLTIP
+            var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent);
+            $('nav a').hover(function(){
+                if (isMobile == false){
+                    var pos = $(this).offset();
+                    var title = $(this).attr('title');
+                    if ($.trim(title) == ''){
+                        return;
+                    }
+                    $(this).data('tipText', title).removeAttr('title');
+                    if($('.tooltip').length == 0) {
+                        var html = '<p class="tooltip"></p>';
+                        $('body').append(html);
+                    }
+                    $('.tooltip').html('<div class="arrow"></div><div>'+title+'</div>');
+                    $('.tooltip').css('top', pos.top+55).css('left', pos.left+25);
+                    var width = $('.tooltip').outerWidth();
+                    $('.tooltip').css('margin-left', 0-width*0.5);
+                    $('.tooltip').addClass('show');
+                }
+            }, function() {
+                if (isMobile == false){
+                    $('.tooltip').removeClass('show');
+                    $(this).attr('title', $(this).data('tipText'));
+                }
+            });
+            
+        </script>
+        <script type="text/javascript">
+
+          var _gaq = _gaq || [];
+          _gaq.(['_setAccount', 'UA-9052680-6']);
+          _gaq.(['_trackPageview']);
+
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+
+        </script>
+
+    </body>
+</html>

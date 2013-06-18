@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8" />
+        <title>MT-Grid</title>
+        
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+        <meta name="viewport" content="initial-scale=1,minimum-scale=1,width=device-width">
+
+        <!-- Javascript -->
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css">
+		<script src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+		
+		
+        <!-- Stylesheets -->
+		<link rel="stylesheet" href="http://a.tbcdn.cn/p/global/1.0/global-min.css" />
+        <link href='http://fonts.googleapis.com/css?family=Raleway:500,900,200' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="../css/examples/mixed.css" type="text/css" media="screen" />
+
+
+        <!--[if lt IE 9]>
+            <script type="text/javascript" src="/js/html5shiv.js"></script>
+            <script type="text/javascript" src="/js/selectivizr.js"></script>
+            <script type="text/javascript" src="/js/respond.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+
+        <!-- Header -->
+        <header>
+            <div class="center">
+                <h1>Mixed Fluid(fixed+fluid)</h1>
+            </div>
+        </header>
+		
+		<nav>
+			<div class="center">
+				<ul>
+					<li>
+						<a href='#' title="Show/Hide Grid" id="gridButton" onclick="return false;">Show/Hide Grid</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<div class="container">
+			<article>
+			<p><a href="#" id="mypanelbtn" class="show"><img src="http://img04.taobaocdn.com/tps/i4/T1SwxfFXFdXXaBzsff-38-31.png"/></a></p>
+				<!-- Main Body -->
+				<div class="col-main">
+					<div class="main-wrap">
+						<div class="col2-17">2</div>
+						<div class="col2-17">2</div>
+						<div class="col2-17">2</div>
+						<div class="col2-17">2</div>
+						<div class="col2-17">2</div>
+						<div class="col4-17">4</div>
+						<div class="col3-17">3</div>
+						<div class="col4-17">4</div>
+						<div class="col4-17">4</div>
+						<div class="col4-17">4</div>
+						<div class="col5-17">5</div>
+						<div class="col8-17">8</div>
+						<div class="col9-17">9</div>
+						<div class="col8-17">8</div>
+						<div class="col9-17">9</div>
+						<div class="col8-17">8</div>
+						<div class="col9-17">9</div>
+						<div class="col8-17">8</div>
+						<div class="col9-17">9</div>
+						<div class="col8-17">8</div>
+						<div class="col9-17">9</div>
+						<div class="col17-17">17</div>
+					</div>
+				</div>
+				<!-- Sidebar -->
+				<section id="mypanel" class="col-sub">
+					<h3>sidebar(140)</h3>
+				</section>
+			</article>
+		</div>
+        <footer>
+            <div class="center">
+                <h3>BUILT BY</h3>
+                <section id="company">
+                    <a href="http://i.taobao.com">MYTAOBAO</a>
+                </section>
+                <section id="meta">
+                    <div>Copyright &copy; 2013-2014 Mytaobao Creative Studio LLC. All rights reserved. </div>
+                </section>
+            </div>
+        </footer>
+        
+        <script type="text/javascript">
+			
+			function createGrid(){
+				var height = $('body').height();
+				var html = '<article id="grid"><div class="overlay"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></article>';
+				$('.main-wrap').prepend(html);
+				$('#grid div').css('height', height);
+			}
+			createGrid();
+			
+            // TOGGLE GRID
+            $('#gridButton').click(function(){
+                if($('#grid').length == 0) {
+					createGrid();
+                }else{
+                    $('#grid').remove();
+                }
+            });
+
+            $(window).resize(function() {
+				if($(window).width() > 599){
+					
+					$('#mypanel').css({
+						width: '140'
+					});
+					$(this).addClass('show');
+					$('.col-main').css({
+						left: '145'
+					});
+				}else{
+					
+					$('#mypanel').css({
+						width: '0'
+					});
+					$('.col-main').css({
+						left: '0'
+					});
+					$(this).removeClass('show');
+				
+				}	
+                if($('#grid').length > 0) {
+                    var height = $('body').height();
+                    $('#grid div').css('height', height);
+                }
+            });
+		
+			$('#mypanelbtn').click(function(){
+				if($(this).hasClass('show')){
+							
+					$('#mypanel').animate({
+						width: '140'
+					}, 50);
+					$(this).toggleClass('show');
+					$('.col-main').animate({
+						left: '145'
+					}, 50);
+				}else{
+					
+					$('#mypanel').animate({
+						width: '0'
+					}, 50);
+					$(this).toggleClass('show');
+					$('.col-main').animate({
+						left: '0'
+					}, 50);
+				}	
+			})
+
+            // CHANGE GRID OVERLAY BEHAVIOUR FOR BROWSERS
+            // THAT DONT SUPPORT "pointer-events: none;" CSS
+            /*if ($.browser.msie || $.browser.opera) {
+              $('#grid').live('click', function(){
+                $('#grid').remove();
+              });
+            }*/
+
+            // TOOLTIP
+            var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent);
+            $('nav a').hover(function(){
+                if (isMobile == false){
+                    var pos = $(this).offset();
+                    var title = $(this).attr('title');
+                    if ($.trim(title) == ''){
+                        return;
+                    }
+                    $(this).data('tipText', title).removeAttr('title');
+                    if($('.tooltip').length == 0) {
+                        var html = '<p class="tooltip"></p>';
+                        $('body').append(html);
+                    }
+                    $('.tooltip').html('<div class="arrow"></div><div>'+title+'</div>');
+                    $('.tooltip').css('top', pos.top+55).css('left', pos.left+25);
+                    var width = $('.tooltip').outerWidth();
+                    $('.tooltip').css('margin-left', 0-width*0.5);
+                    $('.tooltip').addClass('show');
+                }
+            }, function() {
+                if (isMobile == false){
+                    $('.tooltip').removeClass('show');
+                    $(this).attr('title', $(this).data('tipText'));
+                }
+            });
+            
+        </script>
+    </body>
+</html>
