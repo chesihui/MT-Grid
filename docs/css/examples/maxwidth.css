@@ -340,9 +340,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
   width: 120%;
   margin: 0 -10%;
-  *width: 119.94792%;
-  *margin-left: -10.05208%;
-  *margin-right: -10.05208%;
+  *width: 120% -correction();
+  *margin-left: -10% -correction();
+  *margin-right: -10% -correction();
   overflow: hidden;
   *zoom: 1;
 }
@@ -351,9 +351,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
   width: 110.0%;
   margin: 0 -5%;
-  *width: 109.94792%;
-  *margin-left: -5.05208%;
-  *margin-right: -5.05208%;
+  *width: 110.0% -correction();
+  *margin-left: -5% -correction();
+  *margin-right: -5% -correction();
   overflow: hidden;
   *zoom: 1;
 }
@@ -362,9 +362,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
   width: 106.66667%;
   margin: 0 -3.33333%;
-  *width: 106.61458%;
-  *margin-left: -3.38542%;
-  *margin-right: -3.38542%;
+  *width: 106.66667% -correction();
+  *margin-left: -3.33333% -correction();
+  *margin-right: -3.33333% -correction();
   overflow: hidden;
   *zoom: 1;
 }
@@ -373,9 +373,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
   width: 105%;
   margin: 0 -2.5%;
-  *width: 104.94792%;
-  *margin-left: -2.55208%;
-  *margin-right: -2.55208%;
+  *width: 105% -correction();
+  *margin-left: -2.5% -correction();
+  *margin-right: -2.5% -correction();
   overflow: hidden;
   *zoom: 1;
 }
@@ -384,9 +384,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
   width: 104%;
   margin: 0 -2%;
-  *width: 103.94792%;
-  *margin-left: -2.05208%;
-  *margin-right: -2.05208%;
+  *width: 104% -correction();
+  *margin-left: -2% -correction();
+  *margin-right: -2% -correction();
   overflow: hidden;
   *zoom: 1;
 }
@@ -395,9 +395,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
   width: 103.33333%;
   margin: 0 -1.66667%;
-  *width: 103.28125%;
-  *margin-left: -1.71875%;
-  *margin-right: -1.71875%;
+  *width: 103.33333% -correction();
+  *margin-left: -1.66667% -correction();
+  *margin-right: -1.66667% -correction();
   overflow: hidden;
   *zoom: 1;
 }
@@ -406,9 +406,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
   width: 102.85714%;
   margin: 0 -1.42857%;
-  *width: 102.80506%;
-  *margin-left: -1.48065%;
-  *margin-right: -1.48065%;
+  *width: 102.85714% -correction();
+  *margin-left: -1.42857% -correction();
+  *margin-right: -1.42857% -correction();
   overflow: hidden;
   *zoom: 1;
 }
@@ -417,9 +417,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
   width: 102.5%;
   margin: 0 -1.25%;
-  *width: 102.44792%;
-  *margin-left: -1.30208%;
-  *margin-right: -1.30208%;
+  *width: 102.5% -correction();
+  *margin-left: -1.25% -correction();
+  *margin-right: -1.25% -correction();
   overflow: hidden;
   *zoom: 1;
 }
@@ -428,9 +428,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
   width: 102.22222%;
   margin: 0 -1.11111%;
-  *width: 102.17014%;
-  *margin-left: -1.16319%;
-  *margin-right: -1.16319%;
+  *width: 102.22222% -correction();
+  *margin-left: -1.11111% -correction();
+  *margin-right: -1.11111% -correction();
   overflow: hidden;
   *zoom: 1;
 }
@@ -439,9 +439,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
   width: 102%;
   margin: 0 -1%;
-  *width: 101.94792%;
-  *margin-left: -1.05208%;
-  *margin-right: -1.05208%;
+  *width: 102% -correction();
+  *margin-left: -1% -correction();
+  *margin-right: -1% -correction();
   overflow: hidden;
   *zoom: 1;
 }
@@ -450,9 +450,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
   width: 101.81818%;
   margin: 0 -0.90909%;
-  *width: 101.7661%;
-  *margin-left: -0.96117%;
-  *margin-right: -0.96117%;
+  *width: 101.81818% -correction();
+  *margin-left: -0.90909% -correction();
+  *margin-right: -0.90909% -correction();
   overflow: hidden;
   *zoom: 1;
 }
@@ -461,9 +461,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
   width: 101.66667%;
   margin: 0 -0.83333%;
-  *width: 101.61458%;
-  *margin-left: -0.88542%;
-  *margin-right: -0.88542%;
+  *width: 101.66667% -correction();
+  *margin-left: -0.83333% -correction();
+  *margin-right: -0.83333% -correction();
   overflow: hidden;
   *zoom: 1;
 }
@@ -472,9 +472,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
   width: 101.53846%;
   margin: 0 -0.76923%;
-  *width: 101.48638%;
-  *margin-left: -0.82131%;
-  *margin-right: -0.82131%;
+  *width: 101.53846% -correction();
+  *margin-left: -0.76923% -correction();
+  *margin-right: -0.76923% -correction();
   overflow: hidden;
   *zoom: 1;
 }
@@ -483,9 +483,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
   width: 101.42857%;
   margin: 0 -0.71429%;
-  *width: 101.37649%;
-  *margin-left: -0.76637%;
-  *margin-right: -0.76637%;
+  *width: 101.42857% -correction();
+  *margin-left: -0.71429% -correction();
+  *margin-right: -0.71429% -correction();
   overflow: hidden;
   *zoom: 1;
 }
@@ -494,9 +494,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
   width: 101.33333%;
   margin: 0 -0.66667%;
-  *width: 101.28125%;
-  *margin-left: -0.71875%;
-  *margin-right: -0.71875%;
+  *width: 101.33333% -correction();
+  *margin-left: -0.66667% -correction();
+  *margin-right: -0.66667% -correction();
   overflow: hidden;
   *zoom: 1;
 }
@@ -505,9 +505,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
   width: 101.25%;
   margin: 0 -0.625%;
-  *width: 101.19792%;
-  *margin-left: -0.67708%;
-  *margin-right: -0.67708%;
+  *width: 101.25% -correction();
+  *margin-left: -0.625% -correction();
+  *margin-right: -0.625% -correction();
   overflow: hidden;
   *zoom: 1;
 }
@@ -516,9 +516,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
   width: 101.17647%;
   margin: 0 -0.58824%;
-  *width: 101.12439%;
-  *margin-left: -0.64032%;
-  *margin-right: -0.64032%;
+  *width: 101.17647% -correction();
+  *margin-left: -0.58824% -correction();
+  *margin-right: -0.58824% -correction();
   overflow: hidden;
   *zoom: 1;
 }
@@ -527,9 +527,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
   width: 101.11111%;
   margin: 0 -0.55556%;
-  *width: 101.05903%;
-  *margin-left: -0.60764%;
-  *margin-right: -0.60764%;
+  *width: 101.11111% -correction();
+  *margin-left: -0.55556% -correction();
+  *margin-right: -0.55556% -correction();
   overflow: hidden;
   *zoom: 1;
 }
@@ -538,9 +538,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
   width: 101.05263%;
   margin: 0 -0.52632%;
-  *width: 101.00055%;
-  *margin-left: -0.5784%;
-  *margin-right: -0.5784%;
+  *width: 101.05263% -correction();
+  *margin-left: -0.52632% -correction();
+  *margin-right: -0.52632% -correction();
   overflow: hidden;
   *zoom: 1;
 }
@@ -549,9 +549,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
   width: 101%;
   margin: 0 -0.5%;
-  *width: 100.94792%;
-  *margin-left: -0.55208%;
-  *margin-right: -0.55208%;
+  *width: 101% -correction();
+  *margin-left: -0.5% -correction();
+  *margin-right: -0.5% -correction();
   overflow: hidden;
   *zoom: 1;
 }
@@ -3501,6 +3501,7 @@ article div {
 
 .container {
   max-width: 1000px;
+  *width: 1000px;
   margin: 0 auto;
   overflow: hidden;
   *zoom: 1;

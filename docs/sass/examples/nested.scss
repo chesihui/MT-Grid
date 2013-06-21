@@ -53,6 +53,7 @@ article div{
 
 .container{
 	max-width:$max_width;
+	*width:$max_width;
 	margin:0 auto;
 	@include clearfix();
 	img {

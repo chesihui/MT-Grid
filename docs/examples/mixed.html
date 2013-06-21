@@ -11,9 +11,7 @@
         <meta name="viewport" content="initial-scale=1,minimum-scale=1,width=device-width">
 
         <!-- Javascript -->
-		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css">
-		<script src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
-		<script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+		<script src="../js/jquery-1.8.3.min.js"></script>
 		
 		
         <!-- Stylesheets -->
@@ -23,9 +21,9 @@
 
 
         <!--[if lt IE 9]>
-            <script type="text/javascript" src="/js/html5shiv.js"></script>
-            <script type="text/javascript" src="/js/selectivizr.js"></script>
-            <script type="text/javascript" src="/js/respond.js"></script>
+            <script type="text/javascript" src="../js/html5shiv.js"></script>
+            <script type="text/javascript" src="../js/selectivizr.js"></script>
+            <script type="text/javascript" src="../js/respond.js"></script>
         <![endif]-->
     </head>
 
@@ -114,32 +112,34 @@
                 }
             });
 
-            $(window).resize(function() {
-				if($(window).width() > 599){
+            if (!$.browser.msie) {
+				$(window).resize(function() {
+					if($(window).width() > 599){
+						
+						$('#mypanel').css({
+							width: '140'
+						});
+						$(this).addClass('show');
+						$('.col-main').css({
+							left: '145'
+						});
+					}else{
+						
+						$('#mypanel').css({
+							width: '0'
+						});
+						$('.col-main').css({
+							left: '0'
+						});
+						$(this).removeClass('show');
 					
-					$('#mypanel').css({
-						width: '140'
-					});
-					$(this).addClass('show');
-					$('.col-main').css({
-						left: '145'
-					});
-				}else{
-					
-					$('#mypanel').css({
-						width: '0'
-					});
-					$('.col-main').css({
-						left: '0'
-					});
-					$(this).removeClass('show');
-				
-				}	
-                if($('#grid').length > 0) {
-                    var height = $('body').height();
-                    $('#grid div').css('height', height);
-                }
-            });
+					}	
+					if($('#grid').length > 0) {
+						var height = $('body').height();
+						$('#grid div').css('height', height);
+					}
+				});
+            }
 		
 			$('#mypanelbtn').click(function(){
 				if($(this).hasClass('show')){

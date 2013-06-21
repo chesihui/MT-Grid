@@ -54,6 +54,7 @@ article div{
 .container{
 	max-width:$max_width;
 	margin:0 auto;
+	*width:$max_width;
 	@include clearfix();
 }
 .des {
@@ -63,6 +64,7 @@ article div{
 }
 #grid{
 	margin-bottom: 0px;
+	top:0px;
 	height: 0px;
 	z-index: 1px;
 	max-width:850px !important;
@@ -135,6 +137,7 @@ h2{
 	margin-top:0px;
 	@extend .css3;	
 	left:145px;
+	*float:left;
 
 }
 #mypanelbtn{

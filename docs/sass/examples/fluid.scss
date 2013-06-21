@@ -53,6 +53,9 @@ article div{
 
 .container{
 	max-width:$max_width;
+	width:750px;
+	overflow:hidden;
+	background:#000;
 	margin:0 auto;
 	@include clearfix();
 	img {
