@@ -18,7 +18,7 @@ $total-width: 100% !default;
 // ie6、7对百分比的计算规则是四舍五入；为了hack我们需要将五入变成舍去；
 // eg:12.5px变成12px,12.75px变成12.25;公式为:O.5 / containerWidth = correctionLevel
 // 因此要hackie 就需要计算出存在五入的容器的宽度
-$fixie-width: 960 !default;
+$fixie-width: 9999999 !default;
 
 // 其他配置项目
 $container_margin: 1%;
