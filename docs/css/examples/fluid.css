@@ -3501,9 +3501,7 @@ article div {
 
 .container {
   max-width: 100%;
-  width: 750px;
   overflow: hidden;
-  background: #000;
   margin: 0 auto;
   overflow: hidden;
   *zoom: 1;
@@ -3533,7 +3531,4 @@ article div {
 }
 #grid div {
   background: none;
-}
-#grid div div {
-  background: black;
 }
