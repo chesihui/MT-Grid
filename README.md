@@ -19,6 +19,6 @@ $gutter-width: 10px;
 $total-width: 100%;
 
 //针对ie6&ie7的hack; 
-$min-width: 1000px;
+$fixie-width: 960;
 
 ```
