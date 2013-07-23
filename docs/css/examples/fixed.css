@@ -2756,6 +2756,8 @@ article div {
   margin-bottom: 0px;
   height: 0px;
   z-index: 1;
+  left: 50%;
+  margin-left: -500px;
 }
 #grid div {
   background: none;

@@ -2761,7 +2761,6 @@ article div {
   z-index: 1px;
   height: 100%;
   width: 1200px;
-  overflow-x: hidden;
 }
 #grid div {
   background: none;

@@ -89,6 +89,9 @@ article div{
 	margin-bottom: 0px;
 	height: 0px;
 	z-index: 1px;
+	*left:50%;
+	*margin-left:-500px;
+	*width:1000px;
 
 	div{
 		background: none;
