@@ -1,0 +1,1 @@
+document.write("<scr" + "ipt type='text/javascript' charset='gbk' src='" + "ad.js" + "'></scr" + "ipt>");

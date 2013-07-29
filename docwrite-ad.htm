@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>example: document.write withOUT ControlJS</title>
+
+<script type="text/javascript">
+// Record the time at the top of the page.
+var t_top = Number(new Date());
+
+function writeTimes() {
+	if ( "undefined" != typeof(t_onload) && "undefined" != typeof(t_docwrite) ) {
+		var elem = document.getElementById('loadtimes');
+		if ( t_onload > t_docwrite ) {
+			elem.innerHTML = (t_docwrite - t_top) + " ms: document.write<br>" + (t_onload - t_top) + " ms: page load";
+		}
+		else {
+			elem.innerHTML = (t_onload - t_top) + " ms: page load<br>" + (t_docwrite - t_top) + " ms: document.write";
+		}
+	}
+}
+</script>
+
+<style>
+BODY { font-family: arial; font-size: 1em; line-height: 130%; width: 900px; }
+.zerobot { margin-bottom: 0; }
+P + UL { margin-top: 0; }
+
+.menulink { text-decoration: none; padding: 2px; font-family: arial,helvetica,clean,sans-serif; font-size: 12px; list-style-type: none; color: #111; }
+.menulink:hover { background: #FFB62D; }
+.menulinkdisabled { color: #888; background: #EEE; text-decoration: none; padding: 2px; font-family: arial,helvetica,clean,sans-serif; font-size: 12px; }
+
+#navlinks A { padding: 2px 4px 2px 4px; text-decoration: underline; border: 2px solid; border-color: #FFF; color: #000053; margin: 0; font-size: 12px; font-weight: bold; }
+#navlinks A:hover { border-color: #B78120; }
+#navlinks LI { margin-bottom: 2px; }
+.linksel, .linksel:visited { background: #FDCB57; }
+</style>
+
+<script type="text/javascript">
+var cjsscript = document.createElement('script');
+cjsscript.src = "control.js";
+var cjssib = document.getElementsByTagName('script')[0];
+cjssib.parentNode.insertBefore(cjsscript, cjssib);
+
+
+</script>
+
+</head>
+
+<body>
+<h1>example: document.write withOUT ControlJS</h1>
+<div class="grid-c banner_w950h90">
+	<script type="text/cjs"> 
+	alimama_pid="mm_12852562_1778064_7289546"; 
+	alimama_sizecode="100"; 
+	alimama_width=950; 
+	alimama_height=90; 
+	alimama_type="i"; 
+	</script>
+	<script data-cjssrc="http://a.alimama.cn/inf.js" type="text/cjs"></script>
+</div>
+<table border=0 cellpadding=8 cellspacing=0>
+<tr>
+  <td valign=top style="border: 1px solid;">
+Examples:
+<ul id=navlinks style="list-style-type: none; margin: 0; padding: 0;">
+  <li> <nobr><a onclick="document.body.innerHTML=''" href="async-baseline.php?t=1299724657">Async withOUT ControlJS</a></nobr>
+  <li> <nobr><a onclick="document.body.innerHTML=''" href="async.php?t=1299724657">Async WITH ControlJS</a></nobr>
+  <li> <nobr><a onclick="document.body.innerHTML=''" href="menu-baseline.php?t=1299724657">Menu withOUT ControlJS</a></nobr>
+  <li> <nobr><a onclick="document.body.innerHTML=''" href="menu.php?t=1299724657">Menu WITH ControlJS</a></nobr>
+  <li> <nobr><a onclick="document.body.innerHTML=''" href="docwrite-baseline.php?t=1299724657">document.write withOUT ControlJS</a></nobr>
+  <li> <nobr><a onclick="document.body.innerHTML=''" href="docwrite.php?t=1299724657" class=linksel>document.write WITH ControlJS</a></nobr>
+  <li> <nobr><a href="../index.php">ControlJS</a></nobr>
+</ul>
+  </td>
+  <td style="width: 600px; height: 80px; padding-top: 0; padding-left: 20px;" valign=top>
+    <script type="text/cjs" data-cjssrc="docwrite.js"></script>
+	<div id=loadtimes style="margin-top: 10px;"></div>
+  </td>
+</tr>
+</table>
+<div class="grid-c banner_w950h90">
+	<script type="text/cjs">
+		alimama_pid="mm_12852562_1778064_7922557"; 
+		alimama_sizecode="100";  
+		alimama_width=950; 
+		alimama_height=90;  
+		alimama_type="i"; 
+	</script>
+	<script data-cjssrc="http://a.alimama.cn/inf.js" type="text/cjs"></script>
+</div>
+
+<p>
+This page contains a script that uses document.write to output a blue rectangular DIV. 
+This script is configured to take 2 seconds to download and 2 seconds to execute.
+The time at which the document.write takes place is shown, as well as the page load time.
+There's also an image at the bottom of the page that takes 2 seconds to download.
+</p>
+
+<p class=zerobot>
+This page <strong>does</strong> uses ControlJS.
+This has several benefits:
+</p>
+<ul>
+  <li> The script is loaded asynchronously so the entire page renders immediately.
+  <li> The async script load also benefits IE because it allows the script and image to download in parallel cutting 2 seconds off the page load time.
+  <li> Another 2 seconds is shaved off the page load time because the script is executed after the page is loaded.
+  <li> Even though the script is executed after the document is loaded, the document.write still works. (If you look at the blue rectangle in a DOM viewer like <a href="http://getfirebug.com/">Firebug</a> you'll see it's wrapped in a SPAN that was inserted by ControlJS.)
+</ul>
+
+<p>
+See <a href="http://www.stevesouders.com/blog/2010/12/15/controljs-part-3/">ControlJS part 3: overriding document.write</a> for more information.
+</p>
+
+<img src="http://1.cuzillion.com/bin/resource.cgi?type=gif&sleep=2&t=1299724657">
+
+</body>
+</html>
