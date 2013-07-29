@@ -1,0 +1,165 @@
+@import 'compass';
+@import 'compass/reset';
+@import 'compass/css3';
+
+@import "icons/*.png";
+
+@include all-icons-sprites;
+
+@import 'grid/grid';
+
+// //////////////////////
+// 栅格变量配置 
+$total-width: 1200px;
+$gutter_width: 12px;
+$column-width: 48px;
+$columns: 20;
+////////////////////////
+
+/////////////////////
+// 定义grid的class
+// 默认为col* = columns(*)
+/////////////////////
+@include generate_helper_classes();
+
+// //////////////////////
+// demo使用 
+// //////////////////////
+$color_yellow: #0099ff;
+$color_nearlyblack: #252525;
+$color_nearlynearlyblack: #454545;
+$color_body: #636363;
+$color_headlines: #fff;
+$container_margin: 1%;
+$max_width: 1200px;
+
+@import "examples/modules/public";
+
+body{
+	overflow-x:hidden;
+}
+footer {
+	width: 100%;
+}
+
+footer .center{
+	margin: 0 auto;
+}
+
+article{
+	margin-bottom: $gutter_width;
+}
+
+article div{
+	height: 38px;
+	margin-top:10px;
+	margin-bottom:10px;
+	background: $color_yellow;
+	font-family: 'Raleway', Arial, sans-serif;
+	font-size: 24px;
+	text-align: center;
+	color: $color_nearlynearlyblack;
+	line-height: 38px;
+}
+
+.container{
+	width:$max_width;
+	margin:0 auto;
+	@include clearfix();
+	img {
+		@include column(20);	
+		float:none;
+	}
+}
+.des {
+	position:relative;
+	margin-top:30px;
+	z-index:9999;
+}
+#grid{
+	margin-bottom: 0px;
+	z-index: 1px;
+	height:100%;
+	width:$max_width;
+
+	div{
+		background: none;
+
+		div{
+			background: black;
+		}
+	}
+}
+
+// ///////////////////////////
+// MEDIA QUERIES
+// ///////////////////////////
+@media screen and (max-width:1024px) {
+	
+	.container,#grid{
+		width:960px !important;
+	}
+	.col20 {
+		@include column(16);
+	}
+	.col5 {
+		@include column(4);
+	}
+	.col5.last {
+		@include column(8)
+	}
+}
+
+@media screen and (max-width: 800px) {
+
+	/* Helper Class: Columns */ 
+	.container,#grid{
+		width:720px !important;
+	}
+	.col1 {
+		@include column(2);
+	}
+	.col2 {
+		@include column(4);
+	}
+	.col20 {
+		@include column(12);
+	}
+	
+}
+
+@media screen and (max-width: 600px) {
+
+	.container,#grid{
+		width:480px !important;
+	}
+	.col1 {
+		@include column(4);
+	}
+	.col5 {
+		@include column(4);
+	}
+	.col20 {
+		@include column(8);
+	}
+
+}
+@media screen and (max-width: 400px) {
+
+	.container,#grid{
+		width:320px !important;
+	}
+	/* Helper Class: Columns */
+	@for $i from 1 through $columns{
+		.#{$class_column}#{$i} {
+			width:100% !important;
+			margin-left:0px;
+			margin-right:0px;
+		}
+	}
+	.col5.last {
+			width:100% !important;
+			margin-left:0px;
+			margin-right:0px;
+	}
+}

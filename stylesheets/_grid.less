@@ -1,0 +1,86 @@
+/**
+ * @url http://www.profoundgrid.com
+ * @url http://www.weareprofound.com 
+ */
+////////////////////////////////////////////////////////////////////////////////
+// Defaults (feel free to override)
+////////////////////////////////////////////////////////////////////////////////
+
+// Defaults which you can freely override
+@column-width: 4%;
+@gutter-width: 1%;
+@columns: 20;
+@gridsystem-width: (@column-width*@columns + @gutter-width*@columns);
+// Set @total-width to 100% for a fluid layout
+@total-width: 100%;
+
+
+
+
+// Uncomment these two lines and the star-hack width/margin lines below to enable sub-pixel fix for IE6 & 7. See http://tylertate.com/blog/2012/01/05/subpixel-rounding.html
+// ie6、7对百分比的计算规则是四舍五入；为了hack我们需要将五入变成舍去；
+// eg:12.5px变成12px,12.75px变成12.25;公式为:O.5 / containerWidth = correctionLevel
+// 因此要hackie 就需要计算出存在五入的容器的宽度
+@min-width: 9999999;
+@isfixie: false;
+@correction: 0.5 / @min-width * @gridsystem-width;
+
+// 其他配置项目
+@container_margin: 1%;
+@class_row:	'row';
+@class_column:'col';
+@class_push:'push';
+@class_pull:'pull';	
+
+////////////////////////////////////////////////////////////////////////////////
+// BASIC MIXINS
+////////////////////////////////////////////////////////////////////////////////
+
+.clearfix() {
+	*zoom:1;
+
+	&:before,
+	&:after {
+	    content:"";
+	    display:table;
+	}
+	&:after {
+	    clear:both;
+	}
+}
+.row(@columns:@columns) {
+	display: block;
+	width: @total-width*((@gutter-width + @gridsystem-width)/@gridsystem-width);
+	margin: 0 @total-width*(((@gutter-width*.5)/@gridsystem-width)*-1);
+	.row-fix-ie6-ie7(@columns:@columns);	
+	.clearfix();
+}
+//@param x {num} 列数
+//@param columns {num} 父级列数,默认初始值
+.column(@x,@columns:@columns) {
+	float: left;
+	width: @total-width*((((@gutter-width+@column-width)*@x)-@gutter-width) / @gridsystem-width);
+	margin-left: @total-width*((@gutter-width*.5)/@gridsystem-width);
+	margin-right: @total-width*((@gutter-width*.5)/@gridsystem-width);
+	display: inline;
+	zoom:1;
+	.column-fix-ie6-ie7(@x,@columns:@columns);	
+}
+.push(@offset:1) {
+	margin-left: @total-width*(((@gutter-width+@column-width)*@offset) / @gridsystem-width) + @total-width*((@gutter-width*.5)/@gridsystem-width);
+}
+.pull(@offset:1) {
+	margin-right: @total-width*(((@gutter-width+@column-width)*@offset) / @gridsystem-width) + @total-width*((@gutter-width*.5)/@gridsystem-width);
+}
+.column-fix-ie6-ie7(@x,@columns:@columns) {
+	*width: @total-width*((((@gutter-width+@column-width)*@x)-@gutter-width) / @gridsystem-width) - @correction;
+	*margin-right: @total-width*((@gutter-width*.5)/@gridsystem-width) - @correction;
+	*margin-left: @total-width*((@gutter-width*.5)/@gridsystem-width) - @correction;
+}
+.row-fix-ie6-ie7(@columns:@columns) {
+	*width: @total-width*((@gutter-width + @gridsystem-width)/@gridsystem-width)-@correction;
+	*margin-left: @total-width*(((@gutter-width*.5)/@gridsystem-width)*-1)-@correction;
+	*margin-right: @total-width*(((@gutter-width*.5)/@gridsystem-width)*-1)-@correction;
+}
+
+

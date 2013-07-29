@@ -111,10 +111,10 @@
 		<article id="downloads">
 			<h3 class="seperator">DOWNLOADS</h3>
 			<ul>
-				<li><a href="stylesheets/grid.scss">Download grid.scss</a></li>
-				<li><a href="stylesheets/grid.less">Download grid.less</a></li>
-				<li><a href="stylesheets/grid.css">Download grid.css</a></li>
-				<li><a href="stylesheets/grid.css">Source on github</a></li>
+				<li><a href="stylesheets/_grid.scss">Download grid.scss</a></li>
+				<li><a href="stylesheets/_grid.less">Download grid.less</a></li>
+				<li><a href="stylesheets/_grid.css">Download grid.css</a></li>
+				<li><a href="https://github.com/chesihui/MT-Grid">Source on github</a></li>
 			</ul>
 		</article>
 
@@ -166,6 +166,11 @@
 					<pre><span>//push($_column_index)</span><br/>.col{ @include pull(2); }</pre>
 					<span>设置一个容易将margin-right几个栅格数。</span>
 				</li>
+				<li>
+					<h4>isfixie/min-width</h4>
+					<pre>$isfixie: false;<br/>$min-width:960px;  </pre>
+					<span>isfixie默认为false，不输出hack ie6、7方法,因为默认ie6/7在1000px不存在小数像素。min-width为hack下的父级元素的宽度；<a href="http://img04.taobaocdn.com/tps/i4/T1VWX2FnlaXXXr.KP8-990-2490.png">原理参看</a></span>
+				</li>
 			</ul>
 		</article>
 
@@ -205,11 +210,11 @@
 
 			// CHANGE GRID OVERLAY BEHAVIOUR FOR BROWSERS
 			// THAT DONT SUPPORT "pointer-events: none;" CSS
-			if ($.browser.msie || $.browser.opera) {
+			/*if ($.browser.msie || $.browser.opera) {
 			  $('#grid').live('click', function(){
 			  	$('#grid').remove();
 			  });
-			}
+			}*/
 
 			
 
@@ -241,19 +246,6 @@
 	        });
 
 			
-		</script>
-		<script type="text/javascript">
-
-		  var _gaq = _gaq || [];
-		  _gaq.push(['_setAccount', 'UA-9052680-6']);
-		  _gaq.push(['_trackPageview']);
-
-		  (function() {
-		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		  })();
-
 		</script>
 	</body>
 

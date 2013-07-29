@@ -159,10 +159,16 @@ header {
 header .center {
   width: container_width();
   margin: 0 3.85%;
-  overflow: hidden;
   *zoom: 1;
   position: relative;
   display: block;
+}
+header .center:before, header .center:after {
+  content: "";
+  display: table;
+}
+header .center:after {
+  clear: both;
 }
 header .center a {
   position: absolute;
@@ -227,14 +233,15 @@ header .center h2 {
   font-size: 24px;
   padding-bottom: 60px;
   line-height: 38px;
-  display: inline;
   float: left;
   width: 62.95761%;
   margin-left: 1.85453%;
   margin-right: 1.85453%;
-  *width: 62.95761%;
-  *margin-right: 1.85452%;
-  *margin-left: 1.85452%;
+  display: inline;
+  zoom: 1;
+  *width: 62.87111%;
+  *margin-right: 1.76803%;
+  *margin-left: 1.76803%;
   float: none;
   display: block;
   margin-left: 0px;
@@ -328,12 +335,18 @@ nav div {
   margin: 0 auto;
 }
 nav div ul {
-  overflow: hidden;
   *zoom: 1;
   width: container_width();
   margin: 0 3.85%;
   height: 100%;
   position: relative;
+}
+nav div ul:before, nav div ul:after {
+  content: "";
+  display: table;
+}
+nav div ul:after {
+  clear: both;
 }
 nav div ul li:nth-child(1) {
   text-align: left;
@@ -407,14 +420,15 @@ nav div ul #navTwitter {
   filter: alpha(opacity=30);
 }
 #grid div div {
-  display: inline;
   float: left;
   width: 4.62428%;
   margin-left: 1.85453%;
   margin-right: 1.85453%;
-  *width: 4.62427%;
-  *margin-right: 1.85452%;
-  *margin-left: 1.85452%;
+  display: inline;
+  zoom: 1;
+  *width: 4.53778%;
+  *margin-right: 1.76803%;
+  *margin-left: 1.76803%;
   height: 100%;
   background: black;
 }
@@ -450,13 +464,19 @@ footer div h3 {
   letter-spacing: 5px;
 }
 footer div #company {
-  overflow: hidden;
   *zoom: 1;
   width: container_width();
   margin: 0 3.85%;
   max-width: 1233px;
   text-align: center;
   margin-top: 30px;
+}
+footer div #company:before, footer div #company:after {
+  content: "";
+  display: table;
+}
+footer div #company:after {
+  clear: both;
 }
 footer div #company a {
   text-align: center;
@@ -470,7 +490,6 @@ footer div #company a {
   padding-left: 13px;
 }
 footer div #meta {
-  overflow: hidden;
   *zoom: 1;
   width: container_width();
   margin: 0 3.85%;
@@ -480,15 +499,23 @@ footer div #meta {
   padding-bottom: 20px;
   border-top: 1px solid #3b3b3b;
 }
+footer div #meta:before, footer div #meta:after {
+  content: "";
+  display: table;
+}
+footer div #meta:after {
+  clear: both;
+}
 footer div #meta div:first-child {
-  display: inline;
   float: left;
   width: 96.29094%;
   margin-left: 1.85453%;
   margin-right: 1.85453%;
-  *width: 96.29094%;
-  *margin-right: 1.85452%;
-  *margin-left: 1.85452%;
+  display: inline;
+  zoom: 1;
+  *width: 96.20444%;
+  *margin-right: 1.76803%;
+  *margin-left: 1.76803%;
   text-align: left;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: normal;
@@ -499,14 +526,15 @@ footer div #meta div:first-child {
   margin-top: 55px;
 }
 footer div #meta div:nth-child(2) {
-  display: inline;
   float: left;
   width: 96.29094%;
   margin-left: 1.85453%;
   margin-right: 1.85453%;
-  *width: 96.29094%;
-  *margin-right: 1.85452%;
-  *margin-left: 1.85452%;
+  display: inline;
+  zoom: 1;
+  *width: 96.20444%;
+  *margin-right: 1.76803%;
+  *margin-left: 1.76803%;
   margin-left: 1.85453%;
   text-align: center;
 }
@@ -542,48 +570,57 @@ footer div #meta div:nth-child(2) a:nth-child(2) {
 }
 @media screen and (min-width: 700px) {
   footer div #meta div:first-child {
-    display: inline;
     float: left;
     width: 71.29094%;
     margin-left: 1.85453%;
     margin-right: 1.85453%;
-    *width: 71.29094%;
-    *margin-right: 1.85452%;
-    *margin-left: 1.85452%;
+    display: inline;
+    zoom: 1;
+    *width: 71.20444%;
+    *margin-right: 1.76803%;
+    *margin-left: 1.76803%;
     font-size: 12px;
     text-align: left;
     margin-top: 0px;
     line-height: 50px;
   }
   footer div #meta div:nth-child(2) {
-    display: inline;
     float: left;
     width: 21.29094%;
     margin-left: 1.85453%;
     margin-right: 1.85453%;
-    *width: 21.29094%;
-    *margin-right: 1.85452%;
-    *margin-left: 1.85452%;
+    display: inline;
+    zoom: 1;
+    *width: 21.20444%;
+    *margin-right: 1.76803%;
+    *margin-left: 1.76803%;
     margin-left: 76.85453%;
     text-align: right;
   }
 }
 #reference ul {
-  overflow: hidden;
   *zoom: 1;
   width: container_width();
   margin: 0 3.85%;
   max-width: 1233px;
 }
+#reference ul:before, #reference ul:after {
+  content: "";
+  display: table;
+}
+#reference ul:after {
+  clear: both;
+}
 #reference ul li {
-  display: inline;
   float: left;
   width: 96.29094%;
   margin-left: 1.85453%;
   margin-right: 1.85453%;
-  *width: 96.29094%;
-  *margin-right: 1.85452%;
-  *margin-left: 1.85452%;
+  display: inline;
+  zoom: 1;
+  *width: 96.20444%;
+  *margin-right: 1.76803%;
+  *margin-left: 1.76803%;
   margin: 10px 0px;
 }
 #reference ul li h4 {
@@ -601,14 +638,12 @@ footer div #meta div:nth-child(2) a:nth-child(2) {
   margin-bottom: 17px;
   word-wrap: break-word;
   color: #454545;
-}
-#reference ul li pre span {
   font-family: "Courier New", Courier, Georgia, serif;
   opacity: 0.7;
   color: #454545;
   filter: alpha(opacity=70);
 }
-#reference ul li span {
+#reference ul span {
   font-size: 16px;
   line-height: 22px;
   color: #636363;
@@ -618,36 +653,43 @@ footer div #meta div:nth-child(2) a:nth-child(2) {
 
 @media screen and (min-width: 900px) {
   #reference ul li {
-    display: inline;
     float: left;
     width: 46.29094%;
     margin-left: 1.85453%;
     margin-right: 1.85453%;
-    *width: 46.29094%;
-    *margin-right: 1.85452%;
-    *margin-left: 1.85452%;
+    display: inline;
+    zoom: 1;
+    *width: 46.20444%;
+    *margin-right: 1.76803%;
+    *margin-left: 1.76803%;
   }
 }
 #examples {
   width: 100%;
-  max-width: 1233px;
   margin: 0 auto;
 }
 #examples ul {
   width: container_width();
   margin: 0 3.85%;
-  overflow: hidden;
   *zoom: 1;
 }
+#examples ul:before, #examples ul:after {
+  content: "";
+  display: table;
+}
+#examples ul:after {
+  clear: both;
+}
 #examples ul li {
-  display: inline;
   float: left;
   width: 96.29094%;
   margin-left: 1.85453%;
   margin-right: 1.85453%;
-  *width: 96.29094%;
-  *margin-right: 1.85452%;
-  *margin-left: 1.85452%;
+  display: inline;
+  zoom: 1;
+  *width: 96.20444%;
+  *margin-right: 1.76803%;
+  *margin-left: 1.76803%;
   height: 350px;
 }
 #examples ul li a {
@@ -689,14 +731,15 @@ footer div #meta div:nth-child(2) a:nth-child(2) {
 
 @media screen and (min-width: 460px) {
   #examples ul li {
-    display: inline;
     float: left;
     width: 46.29094%;
     margin-left: 1.85453%;
     margin-right: 1.85453%;
-    *width: 46.29094%;
-    *margin-right: 1.85452%;
-    *margin-left: 1.85452%;
+    display: inline;
+    zoom: 1;
+    *width: 46.20444%;
+    *margin-right: 1.76803%;
+    *margin-left: 1.76803%;
     height: 320px;
   }
   #examples ul li span {
@@ -713,14 +756,15 @@ footer div #meta div:nth-child(2) a:nth-child(2) {
 }
 @media screen and (min-width: 900px) {
   #examples ul li {
-    display: inline;
     float: left;
     width: 21.29094%;
     margin-left: 1.85453%;
     margin-right: 1.85453%;
-    *width: 21.29094%;
-    *margin-right: 1.85452%;
-    *margin-left: 1.85452%;
+    display: inline;
+    zoom: 1;
+    *width: 21.20444%;
+    *margin-right: 1.76803%;
+    *margin-left: 1.76803%;
     height: 300px;
   }
   #examples ul li span {
@@ -728,21 +772,28 @@ footer div #meta div:nth-child(2) a:nth-child(2) {
   }
 }
 #downloads ul {
-  overflow: hidden;
   *zoom: 1;
   width: container_width();
   margin: 0 3.85%;
   max-width: 1233px;
 }
+#downloads ul:before, #downloads ul:after {
+  content: "";
+  display: table;
+}
+#downloads ul:after {
+  clear: both;
+}
 #downloads li {
-  display: inline;
   float: left;
   width: 96.29094%;
   margin-left: 1.85453%;
   margin-right: 1.85453%;
-  *width: 96.29094%;
-  *margin-right: 1.85452%;
-  *margin-left: 1.85452%;
+  display: inline;
+  zoom: 1;
+  *width: 96.20444%;
+  *margin-right: 1.76803%;
+  *margin-left: 1.76803%;
   text-align: center;
 }
 #downloads li a {
@@ -771,14 +822,15 @@ footer div #meta div:nth-child(2) a:nth-child(2) {
   color: #2c4ceb;
 }
 #downloads li.design {
-  display: inline;
   float: left;
   width: 96.29094%;
   margin-left: 1.85453%;
   margin-right: 1.85453%;
-  *width: 96.29094%;
-  *margin-right: 1.85452%;
-  *margin-left: 1.85452%;
+  display: inline;
+  zoom: 1;
+  *width: 96.20444%;
+  *margin-right: 1.76803%;
+  *margin-left: 1.76803%;
 }
 #downloads li.design a {
   font-size: 26px;
@@ -791,14 +843,15 @@ footer div #meta div:nth-child(2) a:nth-child(2) {
 }
 @media screen and (min-width: 700px) {
   #downloads ul li {
-    display: inline;
     float: left;
     width: 21.29094%;
     margin-left: 1.85453%;
     margin-right: 1.85453%;
-    *width: 21.29094%;
-    *margin-right: 1.85452%;
-    *margin-left: 1.85452%;
+    display: inline;
+    zoom: 1;
+    *width: 21.20444%;
+    *margin-right: 1.76803%;
+    *margin-left: 1.76803%;
   }
 }
 @media screen and (min-width: 900px) {

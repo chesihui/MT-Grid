@@ -116,223 +116,183 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
  */
 /* Helper Class: Columns */
 .col1 {
-  display: inline;
   float: left;
   width: 4%;
   margin-left: 0.5%;
   margin-right: 0.5%;
-  *width: 3.99999%;
-  *margin-right: 0.49999%;
-  *margin-left: 0.49999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col2 {
-  display: inline;
   float: left;
   width: 9%;
   margin-left: 0.5%;
   margin-right: 0.5%;
-  *width: 8.99999%;
-  *margin-right: 0.49999%;
-  *margin-left: 0.49999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col3 {
-  display: inline;
   float: left;
   width: 14.0%;
   margin-left: 0.5%;
   margin-right: 0.5%;
-  *width: 13.99999%;
-  *margin-right: 0.49999%;
-  *margin-left: 0.49999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col4 {
-  display: inline;
   float: left;
   width: 19%;
   margin-left: 0.5%;
   margin-right: 0.5%;
-  *width: 18.99999%;
-  *margin-right: 0.49999%;
-  *margin-left: 0.49999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col5 {
-  display: inline;
   float: left;
   width: 24%;
   margin-left: 0.5%;
   margin-right: 0.5%;
-  *width: 23.99999%;
-  *margin-right: 0.49999%;
-  *margin-left: 0.49999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col6 {
-  display: inline;
   float: left;
   width: 29.0%;
   margin-left: 0.5%;
   margin-right: 0.5%;
-  *width: 28.99999%;
-  *margin-right: 0.49999%;
-  *margin-left: 0.49999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col7 {
-  display: inline;
   float: left;
   width: 34%;
   margin-left: 0.5%;
   margin-right: 0.5%;
-  *width: 33.99999%;
-  *margin-right: 0.49999%;
-  *margin-left: 0.49999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col8 {
-  display: inline;
   float: left;
   width: 39%;
   margin-left: 0.5%;
   margin-right: 0.5%;
-  *width: 38.99999%;
-  *margin-right: 0.49999%;
-  *margin-left: 0.49999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col9 {
-  display: inline;
   float: left;
   width: 44%;
   margin-left: 0.5%;
   margin-right: 0.5%;
-  *width: 43.99999%;
-  *margin-right: 0.49999%;
-  *margin-left: 0.49999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col10 {
-  display: inline;
   float: left;
   width: 49%;
   margin-left: 0.5%;
   margin-right: 0.5%;
-  *width: 48.99999%;
-  *margin-right: 0.49999%;
-  *margin-left: 0.49999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col11 {
-  display: inline;
   float: left;
   width: 54%;
   margin-left: 0.5%;
   margin-right: 0.5%;
-  *width: 53.99999%;
-  *margin-right: 0.49999%;
-  *margin-left: 0.49999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col12 {
-  display: inline;
   float: left;
   width: 59%;
   margin-left: 0.5%;
   margin-right: 0.5%;
-  *width: 58.99999%;
-  *margin-right: 0.49999%;
-  *margin-left: 0.49999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col13 {
-  display: inline;
   float: left;
   width: 64%;
   margin-left: 0.5%;
   margin-right: 0.5%;
-  *width: 63.99999%;
-  *margin-right: 0.49999%;
-  *margin-left: 0.49999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col14 {
-  display: inline;
   float: left;
   width: 69%;
   margin-left: 0.5%;
   margin-right: 0.5%;
-  *width: 68.99999%;
-  *margin-right: 0.49999%;
-  *margin-left: 0.49999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col15 {
-  display: inline;
   float: left;
   width: 74%;
   margin-left: 0.5%;
   margin-right: 0.5%;
-  *width: 73.99999%;
-  *margin-right: 0.49999%;
-  *margin-left: 0.49999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col16 {
-  display: inline;
   float: left;
   width: 79%;
   margin-left: 0.5%;
   margin-right: 0.5%;
-  *width: 78.99999%;
-  *margin-right: 0.49999%;
-  *margin-left: 0.49999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col17 {
-  display: inline;
   float: left;
   width: 84%;
   margin-left: 0.5%;
   margin-right: 0.5%;
-  *width: 83.99999%;
-  *margin-right: 0.49999%;
-  *margin-left: 0.49999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col18 {
-  display: inline;
   float: left;
   width: 89%;
   margin-left: 0.5%;
   margin-right: 0.5%;
-  *width: 88.99999%;
-  *margin-right: 0.49999%;
-  *margin-left: 0.49999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col19 {
-  display: inline;
   float: left;
   width: 94%;
   margin-left: 0.5%;
   margin-right: 0.5%;
-  *width: 93.99999%;
-  *margin-right: 0.49999%;
-  *margin-left: 0.49999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col20 {
-  display: inline;
   float: left;
   width: 99%;
   margin-left: 0.5%;
   margin-right: 0.5%;
-  *width: 98.99999%;
-  *margin-right: 0.49999%;
-  *margin-left: 0.49999%;
+  display: inline;
+  zoom: 1;
 }
 
 /* Helper Class: Rows */
@@ -340,2531 +300,2171 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
   width: 120%;
   margin: 0 -10%;
-  *width: 120% -correction();
-  *margin-left: -10% -correction();
-  *margin-right: -10% -correction();
-  overflow: hidden;
   *zoom: 1;
+}
+.row1:before, .row1:after {
+  content: "";
+  display: table;
+}
+.row1:after {
+  clear: both;
 }
 
 .row2 {
   display: block;
   width: 110.0%;
   margin: 0 -5%;
-  *width: 110.0% -correction();
-  *margin-left: -5% -correction();
-  *margin-right: -5% -correction();
-  overflow: hidden;
   *zoom: 1;
+}
+.row2:before, .row2:after {
+  content: "";
+  display: table;
+}
+.row2:after {
+  clear: both;
 }
 
 .row3 {
   display: block;
   width: 106.66667%;
   margin: 0 -3.33333%;
-  *width: 106.66667% -correction();
-  *margin-left: -3.33333% -correction();
-  *margin-right: -3.33333% -correction();
-  overflow: hidden;
   *zoom: 1;
+}
+.row3:before, .row3:after {
+  content: "";
+  display: table;
+}
+.row3:after {
+  clear: both;
 }
 
 .row4 {
   display: block;
   width: 105%;
   margin: 0 -2.5%;
-  *width: 105% -correction();
-  *margin-left: -2.5% -correction();
-  *margin-right: -2.5% -correction();
-  overflow: hidden;
   *zoom: 1;
+}
+.row4:before, .row4:after {
+  content: "";
+  display: table;
+}
+.row4:after {
+  clear: both;
 }
 
 .row5 {
   display: block;
   width: 104%;
   margin: 0 -2%;
-  *width: 104% -correction();
-  *margin-left: -2% -correction();
-  *margin-right: -2% -correction();
-  overflow: hidden;
   *zoom: 1;
+}
+.row5:before, .row5:after {
+  content: "";
+  display: table;
+}
+.row5:after {
+  clear: both;
 }
 
 .row6 {
   display: block;
   width: 103.33333%;
   margin: 0 -1.66667%;
-  *width: 103.33333% -correction();
-  *margin-left: -1.66667% -correction();
-  *margin-right: -1.66667% -correction();
-  overflow: hidden;
   *zoom: 1;
+}
+.row6:before, .row6:after {
+  content: "";
+  display: table;
+}
+.row6:after {
+  clear: both;
 }
 
 .row7 {
   display: block;
   width: 102.85714%;
   margin: 0 -1.42857%;
-  *width: 102.85714% -correction();
-  *margin-left: -1.42857% -correction();
-  *margin-right: -1.42857% -correction();
-  overflow: hidden;
   *zoom: 1;
+}
+.row7:before, .row7:after {
+  content: "";
+  display: table;
+}
+.row7:after {
+  clear: both;
 }
 
 .row8 {
   display: block;
   width: 102.5%;
   margin: 0 -1.25%;
-  *width: 102.5% -correction();
-  *margin-left: -1.25% -correction();
-  *margin-right: -1.25% -correction();
-  overflow: hidden;
   *zoom: 1;
+}
+.row8:before, .row8:after {
+  content: "";
+  display: table;
+}
+.row8:after {
+  clear: both;
 }
 
 .row9 {
   display: block;
   width: 102.22222%;
   margin: 0 -1.11111%;
-  *width: 102.22222% -correction();
-  *margin-left: -1.11111% -correction();
-  *margin-right: -1.11111% -correction();
-  overflow: hidden;
   *zoom: 1;
+}
+.row9:before, .row9:after {
+  content: "";
+  display: table;
+}
+.row9:after {
+  clear: both;
 }
 
 .row10 {
   display: block;
   width: 102%;
   margin: 0 -1%;
-  *width: 102% -correction();
-  *margin-left: -1% -correction();
-  *margin-right: -1% -correction();
-  overflow: hidden;
   *zoom: 1;
+}
+.row10:before, .row10:after {
+  content: "";
+  display: table;
+}
+.row10:after {
+  clear: both;
 }
 
 .row11 {
   display: block;
   width: 101.81818%;
   margin: 0 -0.90909%;
-  *width: 101.81818% -correction();
-  *margin-left: -0.90909% -correction();
-  *margin-right: -0.90909% -correction();
-  overflow: hidden;
   *zoom: 1;
+}
+.row11:before, .row11:after {
+  content: "";
+  display: table;
+}
+.row11:after {
+  clear: both;
 }
 
 .row12 {
   display: block;
   width: 101.66667%;
   margin: 0 -0.83333%;
-  *width: 101.66667% -correction();
-  *margin-left: -0.83333% -correction();
-  *margin-right: -0.83333% -correction();
-  overflow: hidden;
   *zoom: 1;
+}
+.row12:before, .row12:after {
+  content: "";
+  display: table;
+}
+.row12:after {
+  clear: both;
 }
 
 .row13 {
   display: block;
   width: 101.53846%;
   margin: 0 -0.76923%;
-  *width: 101.53846% -correction();
-  *margin-left: -0.76923% -correction();
-  *margin-right: -0.76923% -correction();
-  overflow: hidden;
   *zoom: 1;
+}
+.row13:before, .row13:after {
+  content: "";
+  display: table;
+}
+.row13:after {
+  clear: both;
 }
 
 .row14 {
   display: block;
   width: 101.42857%;
   margin: 0 -0.71429%;
-  *width: 101.42857% -correction();
-  *margin-left: -0.71429% -correction();
-  *margin-right: -0.71429% -correction();
-  overflow: hidden;
   *zoom: 1;
+}
+.row14:before, .row14:after {
+  content: "";
+  display: table;
+}
+.row14:after {
+  clear: both;
 }
 
 .row15 {
   display: block;
   width: 101.33333%;
   margin: 0 -0.66667%;
-  *width: 101.33333% -correction();
-  *margin-left: -0.66667% -correction();
-  *margin-right: -0.66667% -correction();
-  overflow: hidden;
   *zoom: 1;
+}
+.row15:before, .row15:after {
+  content: "";
+  display: table;
+}
+.row15:after {
+  clear: both;
 }
 
 .row16 {
   display: block;
   width: 101.25%;
   margin: 0 -0.625%;
-  *width: 101.25% -correction();
-  *margin-left: -0.625% -correction();
-  *margin-right: -0.625% -correction();
-  overflow: hidden;
   *zoom: 1;
+}
+.row16:before, .row16:after {
+  content: "";
+  display: table;
+}
+.row16:after {
+  clear: both;
 }
 
 .row17 {
   display: block;
   width: 101.17647%;
   margin: 0 -0.58824%;
-  *width: 101.17647% -correction();
-  *margin-left: -0.58824% -correction();
-  *margin-right: -0.58824% -correction();
-  overflow: hidden;
   *zoom: 1;
+}
+.row17:before, .row17:after {
+  content: "";
+  display: table;
+}
+.row17:after {
+  clear: both;
 }
 
 .row18 {
   display: block;
   width: 101.11111%;
   margin: 0 -0.55556%;
-  *width: 101.11111% -correction();
-  *margin-left: -0.55556% -correction();
-  *margin-right: -0.55556% -correction();
-  overflow: hidden;
   *zoom: 1;
+}
+.row18:before, .row18:after {
+  content: "";
+  display: table;
+}
+.row18:after {
+  clear: both;
 }
 
 .row19 {
   display: block;
   width: 101.05263%;
   margin: 0 -0.52632%;
-  *width: 101.05263% -correction();
-  *margin-left: -0.52632% -correction();
-  *margin-right: -0.52632% -correction();
-  overflow: hidden;
   *zoom: 1;
+}
+.row19:before, .row19:after {
+  content: "";
+  display: table;
+}
+.row19:after {
+  clear: both;
 }
 
 .row20 {
   display: block;
   width: 101%;
   margin: 0 -0.5%;
-  *width: 101% -correction();
-  *margin-left: -0.5% -correction();
-  *margin-right: -0.5% -correction();
-  overflow: hidden;
   *zoom: 1;
+}
+.row20:before, .row20:after {
+  content: "";
+  display: table;
+}
+.row20:after {
+  clear: both;
 }
 
 /* Helper Class: Columns && Parent Columns */
 .col1-1 {
-  display: inline;
   float: left;
   width: 80%;
   margin-left: 10%;
   margin-right: 10%;
-  *width: 79.99999%;
-  *margin-right: 9.99999%;
-  *margin-left: 9.99999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col1-2 {
-  display: inline;
   float: left;
   width: 40%;
   margin-left: 5%;
   margin-right: 5%;
-  *width: 39.99999%;
-  *margin-right: 4.99999%;
-  *margin-left: 4.99999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col1-3 {
-  display: inline;
   float: left;
   width: 26.66667%;
   margin-left: 3.33333%;
   margin-right: 3.33333%;
-  *width: 26.66666%;
-  *margin-right: 3.33333%;
-  *margin-left: 3.33333%;
+  display: inline;
+  zoom: 1;
 }
 
 .col1-4 {
-  display: inline;
   float: left;
   width: 20%;
   margin-left: 2.5%;
   margin-right: 2.5%;
-  *width: 19.99999%;
-  *margin-right: 2.49999%;
-  *margin-left: 2.49999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col1-5 {
-  display: inline;
   float: left;
   width: 16%;
   margin-left: 2%;
   margin-right: 2%;
-  *width: 15.99999%;
-  *margin-right: 1.99999%;
-  *margin-left: 1.99999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col1-6 {
-  display: inline;
   float: left;
   width: 13.33333%;
   margin-left: 1.66667%;
   margin-right: 1.66667%;
-  *width: 13.33333%;
-  *margin-right: 1.66666%;
-  *margin-left: 1.66666%;
+  display: inline;
+  zoom: 1;
 }
 
 .col1-7 {
-  display: inline;
   float: left;
   width: 11.42857%;
   margin-left: 1.42857%;
   margin-right: 1.42857%;
-  *width: 11.42857%;
-  *margin-right: 1.42857%;
-  *margin-left: 1.42857%;
+  display: inline;
+  zoom: 1;
 }
 
 .col1-8 {
-  display: inline;
   float: left;
   width: 10%;
   margin-left: 1.25%;
   margin-right: 1.25%;
-  *width: 9.99999%;
-  *margin-right: 1.24999%;
-  *margin-left: 1.24999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col1-9 {
-  display: inline;
   float: left;
   width: 8.88889%;
   margin-left: 1.11111%;
   margin-right: 1.11111%;
-  *width: 8.88888%;
-  *margin-right: 1.11111%;
-  *margin-left: 1.11111%;
+  display: inline;
+  zoom: 1;
 }
 
 .col1-10 {
-  display: inline;
   float: left;
   width: 8%;
   margin-left: 1%;
   margin-right: 1%;
-  *width: 7.99999%;
-  *margin-right: 0.99999%;
-  *margin-left: 0.99999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col1-11 {
-  display: inline;
   float: left;
   width: 7.27273%;
   margin-left: 0.90909%;
   margin-right: 0.90909%;
-  *width: 7.27272%;
-  *margin-right: 0.90909%;
-  *margin-left: 0.90909%;
+  display: inline;
+  zoom: 1;
 }
 
 .col1-12 {
-  display: inline;
   float: left;
   width: 6.66667%;
   margin-left: 0.83333%;
   margin-right: 0.83333%;
-  *width: 6.66666%;
-  *margin-right: 0.83333%;
-  *margin-left: 0.83333%;
+  display: inline;
+  zoom: 1;
 }
 
 .col1-13 {
-  display: inline;
   float: left;
   width: 6.15385%;
   margin-left: 0.76923%;
   margin-right: 0.76923%;
-  *width: 6.15384%;
-  *margin-right: 0.76923%;
-  *margin-left: 0.76923%;
+  display: inline;
+  zoom: 1;
 }
 
 .col1-14 {
-  display: inline;
   float: left;
   width: 5.71429%;
   margin-left: 0.71429%;
   margin-right: 0.71429%;
-  *width: 5.71428%;
-  *margin-right: 0.71428%;
-  *margin-left: 0.71428%;
+  display: inline;
+  zoom: 1;
 }
 
 .col1-15 {
-  display: inline;
   float: left;
   width: 5.33333%;
   margin-left: 0.66667%;
   margin-right: 0.66667%;
-  *width: 5.33333%;
-  *margin-right: 0.66666%;
-  *margin-left: 0.66666%;
+  display: inline;
+  zoom: 1;
 }
 
 .col1-16 {
-  display: inline;
   float: left;
   width: 5%;
   margin-left: 0.625%;
   margin-right: 0.625%;
-  *width: 4.99999%;
-  *margin-right: 0.62499%;
-  *margin-left: 0.62499%;
+  display: inline;
+  zoom: 1;
 }
 
 .col1-17 {
-  display: inline;
   float: left;
   width: 4.70588%;
   margin-left: 0.58824%;
   margin-right: 0.58824%;
-  *width: 4.70588%;
-  *margin-right: 0.58823%;
-  *margin-left: 0.58823%;
+  display: inline;
+  zoom: 1;
 }
 
 .col1-18 {
-  display: inline;
   float: left;
   width: 4.44444%;
   margin-left: 0.55556%;
   margin-right: 0.55556%;
-  *width: 4.44444%;
-  *margin-right: 0.55555%;
-  *margin-left: 0.55555%;
+  display: inline;
+  zoom: 1;
 }
 
 .col1-19 {
-  display: inline;
   float: left;
   width: 4.21053%;
   margin-left: 0.52632%;
   margin-right: 0.52632%;
-  *width: 4.21052%;
-  *margin-right: 0.52631%;
-  *margin-left: 0.52631%;
+  display: inline;
+  zoom: 1;
 }
 
 .col1-20 {
-  display: inline;
   float: left;
   width: 4%;
   margin-left: 0.5%;
   margin-right: 0.5%;
-  *width: 3.99999%;
-  *margin-right: 0.49999%;
-  *margin-left: 0.49999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col2-2 {
-  display: inline;
   float: left;
   width: 90%;
   margin-left: 5%;
   margin-right: 5%;
-  *width: 89.99999%;
-  *margin-right: 4.99999%;
-  *margin-left: 4.99999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col2-3 {
-  display: inline;
   float: left;
   width: 60%;
   margin-left: 3.33333%;
   margin-right: 3.33333%;
-  *width: 59.99999%;
-  *margin-right: 3.33333%;
-  *margin-left: 3.33333%;
+  display: inline;
+  zoom: 1;
 }
 
 .col2-4 {
-  display: inline;
   float: left;
   width: 45%;
   margin-left: 2.5%;
   margin-right: 2.5%;
-  *width: 44.99999%;
-  *margin-right: 2.49999%;
-  *margin-left: 2.49999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col2-5 {
-  display: inline;
   float: left;
   width: 36%;
   margin-left: 2%;
   margin-right: 2%;
-  *width: 35.99999%;
-  *margin-right: 1.99999%;
-  *margin-left: 1.99999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col2-6 {
-  display: inline;
   float: left;
   width: 30%;
   margin-left: 1.66667%;
   margin-right: 1.66667%;
-  *width: 29.99999%;
-  *margin-right: 1.66666%;
-  *margin-left: 1.66666%;
+  display: inline;
+  zoom: 1;
 }
 
 .col2-7 {
-  display: inline;
   float: left;
   width: 25.71429%;
   margin-left: 1.42857%;
   margin-right: 1.42857%;
-  *width: 25.71428%;
-  *margin-right: 1.42857%;
-  *margin-left: 1.42857%;
+  display: inline;
+  zoom: 1;
 }
 
 .col2-8 {
-  display: inline;
   float: left;
   width: 22.5%;
   margin-left: 1.25%;
   margin-right: 1.25%;
-  *width: 22.49999%;
-  *margin-right: 1.24999%;
-  *margin-left: 1.24999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col2-9 {
-  display: inline;
   float: left;
   width: 20%;
   margin-left: 1.11111%;
   margin-right: 1.11111%;
-  *width: 19.99999%;
-  *margin-right: 1.11111%;
-  *margin-left: 1.11111%;
+  display: inline;
+  zoom: 1;
 }
 
 .col2-10 {
-  display: inline;
   float: left;
   width: 18%;
   margin-left: 1%;
   margin-right: 1%;
-  *width: 17.99999%;
-  *margin-right: 0.99999%;
-  *margin-left: 0.99999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col2-11 {
-  display: inline;
   float: left;
   width: 16.36364%;
   margin-left: 0.90909%;
   margin-right: 0.90909%;
-  *width: 16.36363%;
-  *margin-right: 0.90909%;
-  *margin-left: 0.90909%;
+  display: inline;
+  zoom: 1;
 }
 
 .col2-12 {
-  display: inline;
   float: left;
   width: 15%;
   margin-left: 0.83333%;
   margin-right: 0.83333%;
-  *width: 14.99999%;
-  *margin-right: 0.83333%;
-  *margin-left: 0.83333%;
+  display: inline;
+  zoom: 1;
 }
 
 .col2-13 {
-  display: inline;
   float: left;
   width: 13.84615%;
   margin-left: 0.76923%;
   margin-right: 0.76923%;
-  *width: 13.84615%;
-  *margin-right: 0.76923%;
-  *margin-left: 0.76923%;
+  display: inline;
+  zoom: 1;
 }
 
 .col2-14 {
-  display: inline;
   float: left;
   width: 12.85714%;
   margin-left: 0.71429%;
   margin-right: 0.71429%;
-  *width: 12.85714%;
-  *margin-right: 0.71428%;
-  *margin-left: 0.71428%;
+  display: inline;
+  zoom: 1;
 }
 
 .col2-15 {
-  display: inline;
   float: left;
   width: 12%;
   margin-left: 0.66667%;
   margin-right: 0.66667%;
-  *width: 11.99999%;
-  *margin-right: 0.66666%;
-  *margin-left: 0.66666%;
+  display: inline;
+  zoom: 1;
 }
 
 .col2-16 {
-  display: inline;
   float: left;
   width: 11.25%;
   margin-left: 0.625%;
   margin-right: 0.625%;
-  *width: 11.24999%;
-  *margin-right: 0.62499%;
-  *margin-left: 0.62499%;
+  display: inline;
+  zoom: 1;
 }
 
 .col2-17 {
-  display: inline;
   float: left;
   width: 10.58824%;
   margin-left: 0.58824%;
   margin-right: 0.58824%;
-  *width: 10.58823%;
-  *margin-right: 0.58823%;
-  *margin-left: 0.58823%;
+  display: inline;
+  zoom: 1;
 }
 
 .col2-18 {
-  display: inline;
   float: left;
   width: 10%;
   margin-left: 0.55556%;
   margin-right: 0.55556%;
-  *width: 9.99999%;
-  *margin-right: 0.55555%;
-  *margin-left: 0.55555%;
+  display: inline;
+  zoom: 1;
 }
 
 .col2-19 {
-  display: inline;
   float: left;
   width: 9.47368%;
   margin-left: 0.52632%;
   margin-right: 0.52632%;
-  *width: 9.47368%;
-  *margin-right: 0.52631%;
-  *margin-left: 0.52631%;
+  display: inline;
+  zoom: 1;
 }
 
 .col2-20 {
-  display: inline;
   float: left;
   width: 9%;
   margin-left: 0.5%;
   margin-right: 0.5%;
-  *width: 8.99999%;
-  *margin-right: 0.49999%;
-  *margin-left: 0.49999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col3-3 {
-  display: inline;
   float: left;
   width: 93.33333%;
   margin-left: 3.33333%;
   margin-right: 3.33333%;
-  *width: 93.33333%;
-  *margin-right: 3.33333%;
-  *margin-left: 3.33333%;
+  display: inline;
+  zoom: 1;
 }
 
 .col3-4 {
-  display: inline;
   float: left;
   width: 70%;
   margin-left: 2.5%;
   margin-right: 2.5%;
-  *width: 69.99999%;
-  *margin-right: 2.49999%;
-  *margin-left: 2.49999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col3-5 {
-  display: inline;
   float: left;
   width: 56.0%;
   margin-left: 2%;
   margin-right: 2%;
-  *width: 55.99999%;
-  *margin-right: 1.99999%;
-  *margin-left: 1.99999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col3-6 {
-  display: inline;
   float: left;
   width: 46.66667%;
   margin-left: 1.66667%;
   margin-right: 1.66667%;
-  *width: 46.66666%;
-  *margin-right: 1.66666%;
-  *margin-left: 1.66666%;
+  display: inline;
+  zoom: 1;
 }
 
 .col3-7 {
-  display: inline;
   float: left;
   width: 40%;
   margin-left: 1.42857%;
   margin-right: 1.42857%;
-  *width: 39.99999%;
-  *margin-right: 1.42857%;
-  *margin-left: 1.42857%;
+  display: inline;
+  zoom: 1;
 }
 
 .col3-8 {
-  display: inline;
   float: left;
   width: 35%;
   margin-left: 1.25%;
   margin-right: 1.25%;
-  *width: 34.99999%;
-  *margin-right: 1.24999%;
-  *margin-left: 1.24999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col3-9 {
-  display: inline;
   float: left;
   width: 31.11111%;
   margin-left: 1.11111%;
   margin-right: 1.11111%;
-  *width: 31.11111%;
-  *margin-right: 1.11111%;
-  *margin-left: 1.11111%;
+  display: inline;
+  zoom: 1;
 }
 
 .col3-10 {
-  display: inline;
   float: left;
   width: 28.0%;
   margin-left: 1%;
   margin-right: 1%;
-  *width: 27.99999%;
-  *margin-right: 0.99999%;
-  *margin-left: 0.99999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col3-11 {
-  display: inline;
   float: left;
   width: 25.45455%;
   margin-left: 0.90909%;
   margin-right: 0.90909%;
-  *width: 25.45454%;
-  *margin-right: 0.90909%;
-  *margin-left: 0.90909%;
+  display: inline;
+  zoom: 1;
 }
 
 .col3-12 {
-  display: inline;
   float: left;
   width: 23.33333%;
   margin-left: 0.83333%;
   margin-right: 0.83333%;
-  *width: 23.33333%;
-  *margin-right: 0.83333%;
-  *margin-left: 0.83333%;
+  display: inline;
+  zoom: 1;
 }
 
 .col3-13 {
-  display: inline;
   float: left;
   width: 21.53846%;
   margin-left: 0.76923%;
   margin-right: 0.76923%;
-  *width: 21.53846%;
-  *margin-right: 0.76923%;
-  *margin-left: 0.76923%;
+  display: inline;
+  zoom: 1;
 }
 
 .col3-14 {
-  display: inline;
   float: left;
   width: 20%;
   margin-left: 0.71429%;
   margin-right: 0.71429%;
-  *width: 19.99999%;
-  *margin-right: 0.71428%;
-  *margin-left: 0.71428%;
+  display: inline;
+  zoom: 1;
 }
 
 .col3-15 {
-  display: inline;
   float: left;
   width: 18.66667%;
   margin-left: 0.66667%;
   margin-right: 0.66667%;
-  *width: 18.66666%;
-  *margin-right: 0.66666%;
-  *margin-left: 0.66666%;
+  display: inline;
+  zoom: 1;
 }
 
 .col3-16 {
-  display: inline;
   float: left;
   width: 17.5%;
   margin-left: 0.625%;
   margin-right: 0.625%;
-  *width: 17.49999%;
-  *margin-right: 0.62499%;
-  *margin-left: 0.62499%;
+  display: inline;
+  zoom: 1;
 }
 
 .col3-17 {
-  display: inline;
   float: left;
   width: 16.47059%;
   margin-left: 0.58824%;
   margin-right: 0.58824%;
-  *width: 16.47058%;
-  *margin-right: 0.58823%;
-  *margin-left: 0.58823%;
+  display: inline;
+  zoom: 1;
 }
 
 .col3-18 {
-  display: inline;
   float: left;
   width: 15.55556%;
   margin-left: 0.55556%;
   margin-right: 0.55556%;
-  *width: 15.55555%;
-  *margin-right: 0.55555%;
-  *margin-left: 0.55555%;
+  display: inline;
+  zoom: 1;
 }
 
 .col3-19 {
-  display: inline;
   float: left;
   width: 14.73684%;
   margin-left: 0.52632%;
   margin-right: 0.52632%;
-  *width: 14.73684%;
-  *margin-right: 0.52631%;
-  *margin-left: 0.52631%;
+  display: inline;
+  zoom: 1;
 }
 
 .col3-20 {
-  display: inline;
   float: left;
   width: 14.0%;
   margin-left: 0.5%;
   margin-right: 0.5%;
-  *width: 13.99999%;
-  *margin-right: 0.49999%;
-  *margin-left: 0.49999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col4-4 {
-  display: inline;
   float: left;
   width: 95%;
   margin-left: 2.5%;
   margin-right: 2.5%;
-  *width: 94.99999%;
-  *margin-right: 2.49999%;
-  *margin-left: 2.49999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col4-5 {
-  display: inline;
   float: left;
   width: 76%;
   margin-left: 2%;
   margin-right: 2%;
-  *width: 75.99999%;
-  *margin-right: 1.99999%;
-  *margin-left: 1.99999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col4-6 {
-  display: inline;
   float: left;
   width: 63.33333%;
   margin-left: 1.66667%;
   margin-right: 1.66667%;
-  *width: 63.33333%;
-  *margin-right: 1.66666%;
-  *margin-left: 1.66666%;
+  display: inline;
+  zoom: 1;
 }
 
 .col4-7 {
-  display: inline;
   float: left;
   width: 54.28571%;
   margin-left: 1.42857%;
   margin-right: 1.42857%;
-  *width: 54.28571%;
-  *margin-right: 1.42857%;
-  *margin-left: 1.42857%;
+  display: inline;
+  zoom: 1;
 }
 
 .col4-8 {
-  display: inline;
   float: left;
   width: 47.5%;
   margin-left: 1.25%;
   margin-right: 1.25%;
-  *width: 47.49999%;
-  *margin-right: 1.24999%;
-  *margin-left: 1.24999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col4-9 {
-  display: inline;
   float: left;
   width: 42.22222%;
   margin-left: 1.11111%;
   margin-right: 1.11111%;
-  *width: 42.22222%;
-  *margin-right: 1.11111%;
-  *margin-left: 1.11111%;
+  display: inline;
+  zoom: 1;
 }
 
 .col4-10 {
-  display: inline;
   float: left;
   width: 38%;
   margin-left: 1%;
   margin-right: 1%;
-  *width: 37.99999%;
-  *margin-right: 0.99999%;
-  *margin-left: 0.99999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col4-11 {
-  display: inline;
   float: left;
   width: 34.54545%;
   margin-left: 0.90909%;
   margin-right: 0.90909%;
-  *width: 34.54545%;
-  *margin-right: 0.90909%;
-  *margin-left: 0.90909%;
+  display: inline;
+  zoom: 1;
 }
 
 .col4-12 {
-  display: inline;
   float: left;
   width: 31.66667%;
   margin-left: 0.83333%;
   margin-right: 0.83333%;
-  *width: 31.66666%;
-  *margin-right: 0.83333%;
-  *margin-left: 0.83333%;
+  display: inline;
+  zoom: 1;
 }
 
 .col4-13 {
-  display: inline;
   float: left;
   width: 29.23077%;
   margin-left: 0.76923%;
   margin-right: 0.76923%;
-  *width: 29.23076%;
-  *margin-right: 0.76923%;
-  *margin-left: 0.76923%;
+  display: inline;
+  zoom: 1;
 }
 
 .col4-14 {
-  display: inline;
   float: left;
   width: 27.14286%;
   margin-left: 0.71429%;
   margin-right: 0.71429%;
-  *width: 27.14285%;
-  *margin-right: 0.71428%;
-  *margin-left: 0.71428%;
+  display: inline;
+  zoom: 1;
 }
 
 .col4-15 {
-  display: inline;
   float: left;
   width: 25.33333%;
   margin-left: 0.66667%;
   margin-right: 0.66667%;
-  *width: 25.33333%;
-  *margin-right: 0.66666%;
-  *margin-left: 0.66666%;
+  display: inline;
+  zoom: 1;
 }
 
 .col4-16 {
-  display: inline;
   float: left;
   width: 23.75%;
   margin-left: 0.625%;
   margin-right: 0.625%;
-  *width: 23.74999%;
-  *margin-right: 0.62499%;
-  *margin-left: 0.62499%;
+  display: inline;
+  zoom: 1;
 }
 
 .col4-17 {
-  display: inline;
   float: left;
   width: 22.35294%;
   margin-left: 0.58824%;
   margin-right: 0.58824%;
-  *width: 22.35294%;
-  *margin-right: 0.58823%;
-  *margin-left: 0.58823%;
+  display: inline;
+  zoom: 1;
 }
 
 .col4-18 {
-  display: inline;
   float: left;
   width: 21.11111%;
   margin-left: 0.55556%;
   margin-right: 0.55556%;
-  *width: 21.11111%;
-  *margin-right: 0.55555%;
-  *margin-left: 0.55555%;
+  display: inline;
+  zoom: 1;
 }
 
 .col4-19 {
-  display: inline;
   float: left;
   width: 20%;
   margin-left: 0.52632%;
   margin-right: 0.52632%;
-  *width: 19.99999%;
-  *margin-right: 0.52631%;
-  *margin-left: 0.52631%;
+  display: inline;
+  zoom: 1;
 }
 
 .col4-20 {
-  display: inline;
   float: left;
   width: 19%;
   margin-left: 0.5%;
   margin-right: 0.5%;
-  *width: 18.99999%;
-  *margin-right: 0.49999%;
-  *margin-left: 0.49999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col5-5 {
-  display: inline;
   float: left;
   width: 96%;
   margin-left: 2%;
   margin-right: 2%;
-  *width: 95.99999%;
-  *margin-right: 1.99999%;
-  *margin-left: 1.99999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col5-6 {
-  display: inline;
   float: left;
   width: 80%;
   margin-left: 1.66667%;
   margin-right: 1.66667%;
-  *width: 79.99999%;
-  *margin-right: 1.66666%;
-  *margin-left: 1.66666%;
+  display: inline;
+  zoom: 1;
 }
 
 .col5-7 {
-  display: inline;
   float: left;
   width: 68.57143%;
   margin-left: 1.42857%;
   margin-right: 1.42857%;
-  *width: 68.57142%;
-  *margin-right: 1.42857%;
-  *margin-left: 1.42857%;
+  display: inline;
+  zoom: 1;
 }
 
 .col5-8 {
-  display: inline;
   float: left;
   width: 60%;
   margin-left: 1.25%;
   margin-right: 1.25%;
-  *width: 59.99999%;
-  *margin-right: 1.24999%;
-  *margin-left: 1.24999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col5-9 {
-  display: inline;
   float: left;
   width: 53.33333%;
   margin-left: 1.11111%;
   margin-right: 1.11111%;
-  *width: 53.33333%;
-  *margin-right: 1.11111%;
-  *margin-left: 1.11111%;
+  display: inline;
+  zoom: 1;
 }
 
 .col5-10 {
-  display: inline;
   float: left;
   width: 48%;
   margin-left: 1%;
   margin-right: 1%;
-  *width: 47.99999%;
-  *margin-right: 0.99999%;
-  *margin-left: 0.99999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col5-11 {
-  display: inline;
   float: left;
   width: 43.63636%;
   margin-left: 0.90909%;
   margin-right: 0.90909%;
-  *width: 43.63636%;
-  *margin-right: 0.90909%;
-  *margin-left: 0.90909%;
+  display: inline;
+  zoom: 1;
 }
 
 .col5-12 {
-  display: inline;
   float: left;
   width: 40%;
   margin-left: 0.83333%;
   margin-right: 0.83333%;
-  *width: 39.99999%;
-  *margin-right: 0.83333%;
-  *margin-left: 0.83333%;
+  display: inline;
+  zoom: 1;
 }
 
 .col5-13 {
-  display: inline;
   float: left;
   width: 36.92308%;
   margin-left: 0.76923%;
   margin-right: 0.76923%;
-  *width: 36.92307%;
-  *margin-right: 0.76923%;
-  *margin-left: 0.76923%;
+  display: inline;
+  zoom: 1;
 }
 
 .col5-14 {
-  display: inline;
   float: left;
   width: 34.28571%;
   margin-left: 0.71429%;
   margin-right: 0.71429%;
-  *width: 34.28571%;
-  *margin-right: 0.71428%;
-  *margin-left: 0.71428%;
+  display: inline;
+  zoom: 1;
 }
 
 .col5-15 {
-  display: inline;
   float: left;
   width: 32%;
   margin-left: 0.66667%;
   margin-right: 0.66667%;
-  *width: 31.99999%;
-  *margin-right: 0.66666%;
-  *margin-left: 0.66666%;
+  display: inline;
+  zoom: 1;
 }
 
 .col5-16 {
-  display: inline;
   float: left;
   width: 30%;
   margin-left: 0.625%;
   margin-right: 0.625%;
-  *width: 29.99999%;
-  *margin-right: 0.62499%;
-  *margin-left: 0.62499%;
+  display: inline;
+  zoom: 1;
 }
 
 .col5-17 {
-  display: inline;
   float: left;
   width: 28.23529%;
   margin-left: 0.58824%;
   margin-right: 0.58824%;
-  *width: 28.23529%;
-  *margin-right: 0.58823%;
-  *margin-left: 0.58823%;
+  display: inline;
+  zoom: 1;
 }
 
 .col5-18 {
-  display: inline;
   float: left;
   width: 26.66667%;
   margin-left: 0.55556%;
   margin-right: 0.55556%;
-  *width: 26.66666%;
-  *margin-right: 0.55555%;
-  *margin-left: 0.55555%;
+  display: inline;
+  zoom: 1;
 }
 
 .col5-19 {
-  display: inline;
   float: left;
   width: 25.26316%;
   margin-left: 0.52632%;
   margin-right: 0.52632%;
-  *width: 25.26315%;
-  *margin-right: 0.52631%;
-  *margin-left: 0.52631%;
+  display: inline;
+  zoom: 1;
 }
 
 .col5-20 {
-  display: inline;
   float: left;
   width: 24%;
   margin-left: 0.5%;
   margin-right: 0.5%;
-  *width: 23.99999%;
-  *margin-right: 0.49999%;
-  *margin-left: 0.49999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col6-6 {
-  display: inline;
   float: left;
   width: 96.66667%;
   margin-left: 1.66667%;
   margin-right: 1.66667%;
-  *width: 96.66666%;
-  *margin-right: 1.66666%;
-  *margin-left: 1.66666%;
+  display: inline;
+  zoom: 1;
 }
 
 .col6-7 {
-  display: inline;
   float: left;
   width: 82.85714%;
   margin-left: 1.42857%;
   margin-right: 1.42857%;
-  *width: 82.85714%;
-  *margin-right: 1.42857%;
-  *margin-left: 1.42857%;
+  display: inline;
+  zoom: 1;
 }
 
 .col6-8 {
-  display: inline;
   float: left;
   width: 72.5%;
   margin-left: 1.25%;
   margin-right: 1.25%;
-  *width: 72.49999%;
-  *margin-right: 1.24999%;
-  *margin-left: 1.24999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col6-9 {
-  display: inline;
   float: left;
   width: 64.44444%;
   margin-left: 1.11111%;
   margin-right: 1.11111%;
-  *width: 64.44444%;
-  *margin-right: 1.11111%;
-  *margin-left: 1.11111%;
+  display: inline;
+  zoom: 1;
 }
 
 .col6-10 {
-  display: inline;
   float: left;
   width: 58.0%;
   margin-left: 1%;
   margin-right: 1%;
-  *width: 57.99999%;
-  *margin-right: 0.99999%;
-  *margin-left: 0.99999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col6-11 {
-  display: inline;
   float: left;
   width: 52.72727%;
   margin-left: 0.90909%;
   margin-right: 0.90909%;
-  *width: 52.72727%;
-  *margin-right: 0.90909%;
-  *margin-left: 0.90909%;
+  display: inline;
+  zoom: 1;
 }
 
 .col6-12 {
-  display: inline;
   float: left;
   width: 48.33333%;
   margin-left: 0.83333%;
   margin-right: 0.83333%;
-  *width: 48.33333%;
-  *margin-right: 0.83333%;
-  *margin-left: 0.83333%;
+  display: inline;
+  zoom: 1;
 }
 
 .col6-13 {
-  display: inline;
   float: left;
   width: 44.61538%;
   margin-left: 0.76923%;
   margin-right: 0.76923%;
-  *width: 44.61538%;
-  *margin-right: 0.76923%;
-  *margin-left: 0.76923%;
+  display: inline;
+  zoom: 1;
 }
 
 .col6-14 {
-  display: inline;
   float: left;
   width: 41.42857%;
   margin-left: 0.71429%;
   margin-right: 0.71429%;
-  *width: 41.42857%;
-  *margin-right: 0.71428%;
-  *margin-left: 0.71428%;
+  display: inline;
+  zoom: 1;
 }
 
 .col6-15 {
-  display: inline;
   float: left;
   width: 38.66667%;
   margin-left: 0.66667%;
   margin-right: 0.66667%;
-  *width: 38.66666%;
-  *margin-right: 0.66666%;
-  *margin-left: 0.66666%;
+  display: inline;
+  zoom: 1;
 }
 
 .col6-16 {
-  display: inline;
   float: left;
   width: 36.25%;
   margin-left: 0.625%;
   margin-right: 0.625%;
-  *width: 36.24999%;
-  *margin-right: 0.62499%;
-  *margin-left: 0.62499%;
+  display: inline;
+  zoom: 1;
 }
 
 .col6-17 {
-  display: inline;
   float: left;
   width: 34.11765%;
   margin-left: 0.58824%;
   margin-right: 0.58824%;
-  *width: 34.11764%;
-  *margin-right: 0.58823%;
-  *margin-left: 0.58823%;
+  display: inline;
+  zoom: 1;
 }
 
 .col6-18 {
-  display: inline;
   float: left;
   width: 32.22222%;
   margin-left: 0.55556%;
   margin-right: 0.55556%;
-  *width: 32.22222%;
-  *margin-right: 0.55555%;
-  *margin-left: 0.55555%;
+  display: inline;
+  zoom: 1;
 }
 
 .col6-19 {
-  display: inline;
   float: left;
   width: 30.52632%;
   margin-left: 0.52632%;
   margin-right: 0.52632%;
-  *width: 30.52631%;
-  *margin-right: 0.52631%;
-  *margin-left: 0.52631%;
+  display: inline;
+  zoom: 1;
 }
 
 .col6-20 {
-  display: inline;
   float: left;
   width: 29.0%;
   margin-left: 0.5%;
   margin-right: 0.5%;
-  *width: 28.99999%;
-  *margin-right: 0.49999%;
-  *margin-left: 0.49999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col7-7 {
-  display: inline;
   float: left;
   width: 97.14286%;
   margin-left: 1.42857%;
   margin-right: 1.42857%;
-  *width: 97.14285%;
-  *margin-right: 1.42857%;
-  *margin-left: 1.42857%;
+  display: inline;
+  zoom: 1;
 }
 
 .col7-8 {
-  display: inline;
   float: left;
   width: 85%;
   margin-left: 1.25%;
   margin-right: 1.25%;
-  *width: 84.99999%;
-  *margin-right: 1.24999%;
-  *margin-left: 1.24999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col7-9 {
-  display: inline;
   float: left;
   width: 75.55556%;
   margin-left: 1.11111%;
   margin-right: 1.11111%;
-  *width: 75.55555%;
-  *margin-right: 1.11111%;
-  *margin-left: 1.11111%;
+  display: inline;
+  zoom: 1;
 }
 
 .col7-10 {
-  display: inline;
   float: left;
   width: 68%;
   margin-left: 1%;
   margin-right: 1%;
-  *width: 67.99999%;
-  *margin-right: 0.99999%;
-  *margin-left: 0.99999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col7-11 {
-  display: inline;
   float: left;
   width: 61.81818%;
   margin-left: 0.90909%;
   margin-right: 0.90909%;
-  *width: 61.81818%;
-  *margin-right: 0.90909%;
-  *margin-left: 0.90909%;
+  display: inline;
+  zoom: 1;
 }
 
 .col7-12 {
-  display: inline;
   float: left;
   width: 56.66667%;
   margin-left: 0.83333%;
   margin-right: 0.83333%;
-  *width: 56.66666%;
-  *margin-right: 0.83333%;
-  *margin-left: 0.83333%;
+  display: inline;
+  zoom: 1;
 }
 
 .col7-13 {
-  display: inline;
   float: left;
   width: 52.30769%;
   margin-left: 0.76923%;
   margin-right: 0.76923%;
-  *width: 52.30769%;
-  *margin-right: 0.76923%;
-  *margin-left: 0.76923%;
+  display: inline;
+  zoom: 1;
 }
 
 .col7-14 {
-  display: inline;
   float: left;
   width: 48.57143%;
   margin-left: 0.71429%;
   margin-right: 0.71429%;
-  *width: 48.57142%;
-  *margin-right: 0.71428%;
-  *margin-left: 0.71428%;
+  display: inline;
+  zoom: 1;
 }
 
 .col7-15 {
-  display: inline;
   float: left;
   width: 45.33333%;
   margin-left: 0.66667%;
   margin-right: 0.66667%;
-  *width: 45.33333%;
-  *margin-right: 0.66666%;
-  *margin-left: 0.66666%;
+  display: inline;
+  zoom: 1;
 }
 
 .col7-16 {
-  display: inline;
   float: left;
   width: 42.5%;
   margin-left: 0.625%;
   margin-right: 0.625%;
-  *width: 42.49999%;
-  *margin-right: 0.62499%;
-  *margin-left: 0.62499%;
+  display: inline;
+  zoom: 1;
 }
 
 .col7-17 {
-  display: inline;
   float: left;
   width: 40%;
   margin-left: 0.58824%;
   margin-right: 0.58824%;
-  *width: 39.99999%;
-  *margin-right: 0.58823%;
-  *margin-left: 0.58823%;
+  display: inline;
+  zoom: 1;
 }
 
 .col7-18 {
-  display: inline;
   float: left;
   width: 37.77778%;
   margin-left: 0.55556%;
   margin-right: 0.55556%;
-  *width: 37.77777%;
-  *margin-right: 0.55555%;
-  *margin-left: 0.55555%;
+  display: inline;
+  zoom: 1;
 }
 
 .col7-19 {
-  display: inline;
   float: left;
   width: 35.78947%;
   margin-left: 0.52632%;
   margin-right: 0.52632%;
-  *width: 35.78947%;
-  *margin-right: 0.52631%;
-  *margin-left: 0.52631%;
+  display: inline;
+  zoom: 1;
 }
 
 .col7-20 {
-  display: inline;
   float: left;
   width: 34%;
   margin-left: 0.5%;
   margin-right: 0.5%;
-  *width: 33.99999%;
-  *margin-right: 0.49999%;
-  *margin-left: 0.49999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col8-8 {
-  display: inline;
   float: left;
   width: 97.5%;
   margin-left: 1.25%;
   margin-right: 1.25%;
-  *width: 97.49999%;
-  *margin-right: 1.24999%;
-  *margin-left: 1.24999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col8-9 {
-  display: inline;
   float: left;
   width: 86.66667%;
   margin-left: 1.11111%;
   margin-right: 1.11111%;
-  *width: 86.66666%;
-  *margin-right: 1.11111%;
-  *margin-left: 1.11111%;
+  display: inline;
+  zoom: 1;
 }
 
 .col8-10 {
-  display: inline;
   float: left;
   width: 78%;
   margin-left: 1%;
   margin-right: 1%;
-  *width: 77.99999%;
-  *margin-right: 0.99999%;
-  *margin-left: 0.99999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col8-11 {
-  display: inline;
   float: left;
   width: 70.90909%;
   margin-left: 0.90909%;
   margin-right: 0.90909%;
-  *width: 70.90909%;
-  *margin-right: 0.90909%;
-  *margin-left: 0.90909%;
+  display: inline;
+  zoom: 1;
 }
 
 .col8-12 {
-  display: inline;
   float: left;
   width: 65%;
   margin-left: 0.83333%;
   margin-right: 0.83333%;
-  *width: 64.99999%;
-  *margin-right: 0.83333%;
-  *margin-left: 0.83333%;
+  display: inline;
+  zoom: 1;
 }
 
 .col8-13 {
-  display: inline;
   float: left;
   width: 60%;
   margin-left: 0.76923%;
   margin-right: 0.76923%;
-  *width: 59.99999%;
-  *margin-right: 0.76923%;
-  *margin-left: 0.76923%;
+  display: inline;
+  zoom: 1;
 }
 
 .col8-14 {
-  display: inline;
   float: left;
   width: 55.71429%;
   margin-left: 0.71429%;
   margin-right: 0.71429%;
-  *width: 55.71428%;
-  *margin-right: 0.71428%;
-  *margin-left: 0.71428%;
+  display: inline;
+  zoom: 1;
 }
 
 .col8-15 {
-  display: inline;
   float: left;
   width: 52%;
   margin-left: 0.66667%;
   margin-right: 0.66667%;
-  *width: 51.99999%;
-  *margin-right: 0.66666%;
-  *margin-left: 0.66666%;
+  display: inline;
+  zoom: 1;
 }
 
 .col8-16 {
-  display: inline;
   float: left;
   width: 48.75%;
   margin-left: 0.625%;
   margin-right: 0.625%;
-  *width: 48.74999%;
-  *margin-right: 0.62499%;
-  *margin-left: 0.62499%;
+  display: inline;
+  zoom: 1;
 }
 
 .col8-17 {
-  display: inline;
   float: left;
   width: 45.88235%;
   margin-left: 0.58824%;
   margin-right: 0.58824%;
-  *width: 45.88235%;
-  *margin-right: 0.58823%;
-  *margin-left: 0.58823%;
+  display: inline;
+  zoom: 1;
 }
 
 .col8-18 {
-  display: inline;
   float: left;
   width: 43.33333%;
   margin-left: 0.55556%;
   margin-right: 0.55556%;
-  *width: 43.33333%;
-  *margin-right: 0.55555%;
-  *margin-left: 0.55555%;
+  display: inline;
+  zoom: 1;
 }
 
 .col8-19 {
-  display: inline;
   float: left;
   width: 41.05263%;
   margin-left: 0.52632%;
   margin-right: 0.52632%;
-  *width: 41.05263%;
-  *margin-right: 0.52631%;
-  *margin-left: 0.52631%;
+  display: inline;
+  zoom: 1;
 }
 
 .col8-20 {
-  display: inline;
   float: left;
   width: 39%;
   margin-left: 0.5%;
   margin-right: 0.5%;
-  *width: 38.99999%;
-  *margin-right: 0.49999%;
-  *margin-left: 0.49999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col9-9 {
-  display: inline;
   float: left;
   width: 97.77778%;
   margin-left: 1.11111%;
   margin-right: 1.11111%;
-  *width: 97.77777%;
-  *margin-right: 1.11111%;
-  *margin-left: 1.11111%;
+  display: inline;
+  zoom: 1;
 }
 
 .col9-10 {
-  display: inline;
   float: left;
   width: 88%;
   margin-left: 1%;
   margin-right: 1%;
-  *width: 87.99999%;
-  *margin-right: 0.99999%;
-  *margin-left: 0.99999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col9-11 {
-  display: inline;
   float: left;
   width: 80%;
   margin-left: 0.90909%;
   margin-right: 0.90909%;
-  *width: 79.99999%;
-  *margin-right: 0.90909%;
-  *margin-left: 0.90909%;
+  display: inline;
+  zoom: 1;
 }
 
 .col9-12 {
-  display: inline;
   float: left;
   width: 73.33333%;
   margin-left: 0.83333%;
   margin-right: 0.83333%;
-  *width: 73.33333%;
-  *margin-right: 0.83333%;
-  *margin-left: 0.83333%;
+  display: inline;
+  zoom: 1;
 }
 
 .col9-13 {
-  display: inline;
   float: left;
   width: 67.69231%;
   margin-left: 0.76923%;
   margin-right: 0.76923%;
-  *width: 67.6923%;
-  *margin-right: 0.76923%;
-  *margin-left: 0.76923%;
+  display: inline;
+  zoom: 1;
 }
 
 .col9-14 {
-  display: inline;
   float: left;
   width: 62.85714%;
   margin-left: 0.71429%;
   margin-right: 0.71429%;
-  *width: 62.85714%;
-  *margin-right: 0.71428%;
-  *margin-left: 0.71428%;
+  display: inline;
+  zoom: 1;
 }
 
 .col9-15 {
-  display: inline;
   float: left;
   width: 58.66667%;
   margin-left: 0.66667%;
   margin-right: 0.66667%;
-  *width: 58.66666%;
-  *margin-right: 0.66666%;
-  *margin-left: 0.66666%;
+  display: inline;
+  zoom: 1;
 }
 
 .col9-16 {
-  display: inline;
   float: left;
   width: 55.0%;
   margin-left: 0.625%;
   margin-right: 0.625%;
-  *width: 54.99999%;
-  *margin-right: 0.62499%;
-  *margin-left: 0.62499%;
+  display: inline;
+  zoom: 1;
 }
 
 .col9-17 {
-  display: inline;
   float: left;
   width: 51.76471%;
   margin-left: 0.58824%;
   margin-right: 0.58824%;
-  *width: 51.7647%;
-  *margin-right: 0.58823%;
-  *margin-left: 0.58823%;
+  display: inline;
+  zoom: 1;
 }
 
 .col9-18 {
-  display: inline;
   float: left;
   width: 48.88889%;
   margin-left: 0.55556%;
   margin-right: 0.55556%;
-  *width: 48.88888%;
-  *margin-right: 0.55555%;
-  *margin-left: 0.55555%;
+  display: inline;
+  zoom: 1;
 }
 
 .col9-19 {
-  display: inline;
   float: left;
   width: 46.31579%;
   margin-left: 0.52632%;
   margin-right: 0.52632%;
-  *width: 46.31578%;
-  *margin-right: 0.52631%;
-  *margin-left: 0.52631%;
+  display: inline;
+  zoom: 1;
 }
 
 .col9-20 {
-  display: inline;
   float: left;
   width: 44%;
   margin-left: 0.5%;
   margin-right: 0.5%;
-  *width: 43.99999%;
-  *margin-right: 0.49999%;
-  *margin-left: 0.49999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col10-10 {
-  display: inline;
   float: left;
   width: 98%;
   margin-left: 1%;
   margin-right: 1%;
-  *width: 97.99999%;
-  *margin-right: 0.99999%;
-  *margin-left: 0.99999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col10-11 {
-  display: inline;
   float: left;
   width: 89.09091%;
   margin-left: 0.90909%;
   margin-right: 0.90909%;
-  *width: 89.0909%;
-  *margin-right: 0.90909%;
-  *margin-left: 0.90909%;
+  display: inline;
+  zoom: 1;
 }
 
 .col10-12 {
-  display: inline;
   float: left;
   width: 81.66667%;
   margin-left: 0.83333%;
   margin-right: 0.83333%;
-  *width: 81.66666%;
-  *margin-right: 0.83333%;
-  *margin-left: 0.83333%;
+  display: inline;
+  zoom: 1;
 }
 
 .col10-13 {
-  display: inline;
   float: left;
   width: 75.38462%;
   margin-left: 0.76923%;
   margin-right: 0.76923%;
-  *width: 75.38461%;
-  *margin-right: 0.76923%;
-  *margin-left: 0.76923%;
+  display: inline;
+  zoom: 1;
 }
 
 .col10-14 {
-  display: inline;
   float: left;
   width: 70%;
   margin-left: 0.71429%;
   margin-right: 0.71429%;
-  *width: 69.99999%;
-  *margin-right: 0.71428%;
-  *margin-left: 0.71428%;
+  display: inline;
+  zoom: 1;
 }
 
 .col10-15 {
-  display: inline;
   float: left;
   width: 65.33333%;
   margin-left: 0.66667%;
   margin-right: 0.66667%;
-  *width: 65.33333%;
-  *margin-right: 0.66666%;
-  *margin-left: 0.66666%;
+  display: inline;
+  zoom: 1;
 }
 
 .col10-16 {
-  display: inline;
   float: left;
   width: 61.25%;
   margin-left: 0.625%;
   margin-right: 0.625%;
-  *width: 61.24999%;
-  *margin-right: 0.62499%;
-  *margin-left: 0.62499%;
+  display: inline;
+  zoom: 1;
 }
 
 .col10-17 {
-  display: inline;
   float: left;
   width: 57.64706%;
   margin-left: 0.58824%;
   margin-right: 0.58824%;
-  *width: 57.64705%;
-  *margin-right: 0.58823%;
-  *margin-left: 0.58823%;
+  display: inline;
+  zoom: 1;
 }
 
 .col10-18 {
-  display: inline;
   float: left;
   width: 54.44444%;
   margin-left: 0.55556%;
   margin-right: 0.55556%;
-  *width: 54.44444%;
-  *margin-right: 0.55555%;
-  *margin-left: 0.55555%;
+  display: inline;
+  zoom: 1;
 }
 
 .col10-19 {
-  display: inline;
   float: left;
   width: 51.57895%;
   margin-left: 0.52632%;
   margin-right: 0.52632%;
-  *width: 51.57894%;
-  *margin-right: 0.52631%;
-  *margin-left: 0.52631%;
+  display: inline;
+  zoom: 1;
 }
 
 .col10-20 {
-  display: inline;
   float: left;
   width: 49%;
   margin-left: 0.5%;
   margin-right: 0.5%;
-  *width: 48.99999%;
-  *margin-right: 0.49999%;
-  *margin-left: 0.49999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col11-11 {
-  display: inline;
   float: left;
   width: 98.18182%;
   margin-left: 0.90909%;
   margin-right: 0.90909%;
-  *width: 98.18181%;
-  *margin-right: 0.90909%;
-  *margin-left: 0.90909%;
+  display: inline;
+  zoom: 1;
 }
 
 .col11-12 {
-  display: inline;
   float: left;
   width: 90%;
   margin-left: 0.83333%;
   margin-right: 0.83333%;
-  *width: 89.99999%;
-  *margin-right: 0.83333%;
-  *margin-left: 0.83333%;
+  display: inline;
+  zoom: 1;
 }
 
 .col11-13 {
-  display: inline;
   float: left;
   width: 83.07692%;
   margin-left: 0.76923%;
   margin-right: 0.76923%;
-  *width: 83.07692%;
-  *margin-right: 0.76923%;
-  *margin-left: 0.76923%;
+  display: inline;
+  zoom: 1;
 }
 
 .col11-14 {
-  display: inline;
   float: left;
   width: 77.14286%;
   margin-left: 0.71429%;
   margin-right: 0.71429%;
-  *width: 77.14285%;
-  *margin-right: 0.71428%;
-  *margin-left: 0.71428%;
+  display: inline;
+  zoom: 1;
 }
 
 .col11-15 {
-  display: inline;
   float: left;
   width: 72%;
   margin-left: 0.66667%;
   margin-right: 0.66667%;
-  *width: 71.99999%;
-  *margin-right: 0.66666%;
-  *margin-left: 0.66666%;
+  display: inline;
+  zoom: 1;
 }
 
 .col11-16 {
-  display: inline;
   float: left;
   width: 67.5%;
   margin-left: 0.625%;
   margin-right: 0.625%;
-  *width: 67.49999%;
-  *margin-right: 0.62499%;
-  *margin-left: 0.62499%;
+  display: inline;
+  zoom: 1;
 }
 
 .col11-17 {
-  display: inline;
   float: left;
   width: 63.52941%;
   margin-left: 0.58824%;
   margin-right: 0.58824%;
-  *width: 63.52941%;
-  *margin-right: 0.58823%;
-  *margin-left: 0.58823%;
+  display: inline;
+  zoom: 1;
 }
 
 .col11-18 {
-  display: inline;
   float: left;
   width: 60%;
   margin-left: 0.55556%;
   margin-right: 0.55556%;
-  *width: 59.99999%;
-  *margin-right: 0.55555%;
-  *margin-left: 0.55555%;
+  display: inline;
+  zoom: 1;
 }
 
 .col11-19 {
-  display: inline;
   float: left;
   width: 56.84211%;
   margin-left: 0.52632%;
   margin-right: 0.52632%;
-  *width: 56.8421%;
-  *margin-right: 0.52631%;
-  *margin-left: 0.52631%;
+  display: inline;
+  zoom: 1;
 }
 
 .col11-20 {
-  display: inline;
   float: left;
   width: 54%;
   margin-left: 0.5%;
   margin-right: 0.5%;
-  *width: 53.99999%;
-  *margin-right: 0.49999%;
-  *margin-left: 0.49999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col12-12 {
-  display: inline;
   float: left;
   width: 98.33333%;
   margin-left: 0.83333%;
   margin-right: 0.83333%;
-  *width: 98.33333%;
-  *margin-right: 0.83333%;
-  *margin-left: 0.83333%;
+  display: inline;
+  zoom: 1;
 }
 
 .col12-13 {
-  display: inline;
   float: left;
   width: 90.76923%;
   margin-left: 0.76923%;
   margin-right: 0.76923%;
-  *width: 90.76923%;
-  *margin-right: 0.76923%;
-  *margin-left: 0.76923%;
+  display: inline;
+  zoom: 1;
 }
 
 .col12-14 {
-  display: inline;
   float: left;
   width: 84.28571%;
   margin-left: 0.71429%;
   margin-right: 0.71429%;
-  *width: 84.28571%;
-  *margin-right: 0.71428%;
-  *margin-left: 0.71428%;
+  display: inline;
+  zoom: 1;
 }
 
 .col12-15 {
-  display: inline;
   float: left;
   width: 78.66667%;
   margin-left: 0.66667%;
   margin-right: 0.66667%;
-  *width: 78.66666%;
-  *margin-right: 0.66666%;
-  *margin-left: 0.66666%;
+  display: inline;
+  zoom: 1;
 }
 
 .col12-16 {
-  display: inline;
   float: left;
   width: 73.75%;
   margin-left: 0.625%;
   margin-right: 0.625%;
-  *width: 73.74999%;
-  *margin-right: 0.62499%;
-  *margin-left: 0.62499%;
+  display: inline;
+  zoom: 1;
 }
 
 .col12-17 {
-  display: inline;
   float: left;
   width: 69.41176%;
   margin-left: 0.58824%;
   margin-right: 0.58824%;
-  *width: 69.41176%;
-  *margin-right: 0.58823%;
-  *margin-left: 0.58823%;
+  display: inline;
+  zoom: 1;
 }
 
 .col12-18 {
-  display: inline;
   float: left;
   width: 65.55556%;
   margin-left: 0.55556%;
   margin-right: 0.55556%;
-  *width: 65.55555%;
-  *margin-right: 0.55555%;
-  *margin-left: 0.55555%;
+  display: inline;
+  zoom: 1;
 }
 
 .col12-19 {
-  display: inline;
   float: left;
   width: 62.10526%;
   margin-left: 0.52632%;
   margin-right: 0.52632%;
-  *width: 62.10526%;
-  *margin-right: 0.52631%;
-  *margin-left: 0.52631%;
+  display: inline;
+  zoom: 1;
 }
 
 .col12-20 {
-  display: inline;
   float: left;
   width: 59%;
   margin-left: 0.5%;
   margin-right: 0.5%;
-  *width: 58.99999%;
-  *margin-right: 0.49999%;
-  *margin-left: 0.49999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col13-13 {
-  display: inline;
   float: left;
   width: 98.46154%;
   margin-left: 0.76923%;
   margin-right: 0.76923%;
-  *width: 98.46153%;
-  *margin-right: 0.76923%;
-  *margin-left: 0.76923%;
+  display: inline;
+  zoom: 1;
 }
 
 .col13-14 {
-  display: inline;
   float: left;
   width: 91.42857%;
   margin-left: 0.71429%;
   margin-right: 0.71429%;
-  *width: 91.42857%;
-  *margin-right: 0.71428%;
-  *margin-left: 0.71428%;
+  display: inline;
+  zoom: 1;
 }
 
 .col13-15 {
-  display: inline;
   float: left;
   width: 85.33333%;
   margin-left: 0.66667%;
   margin-right: 0.66667%;
-  *width: 85.33333%;
-  *margin-right: 0.66666%;
-  *margin-left: 0.66666%;
+  display: inline;
+  zoom: 1;
 }
 
 .col13-16 {
-  display: inline;
   float: left;
   width: 80%;
   margin-left: 0.625%;
   margin-right: 0.625%;
-  *width: 79.99999%;
-  *margin-right: 0.62499%;
-  *margin-left: 0.62499%;
+  display: inline;
+  zoom: 1;
 }
 
 .col13-17 {
-  display: inline;
   float: left;
   width: 75.29412%;
   margin-left: 0.58824%;
   margin-right: 0.58824%;
-  *width: 75.29411%;
-  *margin-right: 0.58823%;
-  *margin-left: 0.58823%;
+  display: inline;
+  zoom: 1;
 }
 
 .col13-18 {
-  display: inline;
   float: left;
   width: 71.11111%;
   margin-left: 0.55556%;
   margin-right: 0.55556%;
-  *width: 71.11111%;
-  *margin-right: 0.55555%;
-  *margin-left: 0.55555%;
+  display: inline;
+  zoom: 1;
 }
 
 .col13-19 {
-  display: inline;
   float: left;
   width: 67.36842%;
   margin-left: 0.52632%;
   margin-right: 0.52632%;
-  *width: 67.36842%;
-  *margin-right: 0.52631%;
-  *margin-left: 0.52631%;
+  display: inline;
+  zoom: 1;
 }
 
 .col13-20 {
-  display: inline;
   float: left;
   width: 64%;
   margin-left: 0.5%;
   margin-right: 0.5%;
-  *width: 63.99999%;
-  *margin-right: 0.49999%;
-  *margin-left: 0.49999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col14-14 {
-  display: inline;
   float: left;
   width: 98.57143%;
   margin-left: 0.71429%;
   margin-right: 0.71429%;
-  *width: 98.57142%;
-  *margin-right: 0.71428%;
-  *margin-left: 0.71428%;
+  display: inline;
+  zoom: 1;
 }
 
 .col14-15 {
-  display: inline;
   float: left;
   width: 92%;
   margin-left: 0.66667%;
   margin-right: 0.66667%;
-  *width: 91.99999%;
-  *margin-right: 0.66666%;
-  *margin-left: 0.66666%;
+  display: inline;
+  zoom: 1;
 }
 
 .col14-16 {
-  display: inline;
   float: left;
   width: 86.25%;
   margin-left: 0.625%;
   margin-right: 0.625%;
-  *width: 86.24999%;
-  *margin-right: 0.62499%;
-  *margin-left: 0.62499%;
+  display: inline;
+  zoom: 1;
 }
 
 .col14-17 {
-  display: inline;
   float: left;
   width: 81.17647%;
   margin-left: 0.58824%;
   margin-right: 0.58824%;
-  *width: 81.17647%;
-  *margin-right: 0.58823%;
-  *margin-left: 0.58823%;
+  display: inline;
+  zoom: 1;
 }
 
 .col14-18 {
-  display: inline;
   float: left;
   width: 76.66667%;
   margin-left: 0.55556%;
   margin-right: 0.55556%;
-  *width: 76.66666%;
-  *margin-right: 0.55555%;
-  *margin-left: 0.55555%;
+  display: inline;
+  zoom: 1;
 }
 
 .col14-19 {
-  display: inline;
   float: left;
   width: 72.63158%;
   margin-left: 0.52632%;
   margin-right: 0.52632%;
-  *width: 72.63157%;
-  *margin-right: 0.52631%;
-  *margin-left: 0.52631%;
+  display: inline;
+  zoom: 1;
 }
 
 .col14-20 {
-  display: inline;
   float: left;
   width: 69%;
   margin-left: 0.5%;
   margin-right: 0.5%;
-  *width: 68.99999%;
-  *margin-right: 0.49999%;
-  *margin-left: 0.49999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col15-15 {
-  display: inline;
   float: left;
   width: 98.66667%;
   margin-left: 0.66667%;
   margin-right: 0.66667%;
-  *width: 98.66666%;
-  *margin-right: 0.66666%;
-  *margin-left: 0.66666%;
+  display: inline;
+  zoom: 1;
 }
 
 .col15-16 {
-  display: inline;
   float: left;
   width: 92.5%;
   margin-left: 0.625%;
   margin-right: 0.625%;
-  *width: 92.49999%;
-  *margin-right: 0.62499%;
-  *margin-left: 0.62499%;
+  display: inline;
+  zoom: 1;
 }
 
 .col15-17 {
-  display: inline;
   float: left;
   width: 87.05882%;
   margin-left: 0.58824%;
   margin-right: 0.58824%;
-  *width: 87.05882%;
-  *margin-right: 0.58823%;
-  *margin-left: 0.58823%;
+  display: inline;
+  zoom: 1;
 }
 
 .col15-18 {
-  display: inline;
   float: left;
   width: 82.22222%;
   margin-left: 0.55556%;
   margin-right: 0.55556%;
-  *width: 82.22222%;
-  *margin-right: 0.55555%;
-  *margin-left: 0.55555%;
+  display: inline;
+  zoom: 1;
 }
 
 .col15-19 {
-  display: inline;
   float: left;
   width: 77.89474%;
   margin-left: 0.52632%;
   margin-right: 0.52632%;
-  *width: 77.89473%;
-  *margin-right: 0.52631%;
-  *margin-left: 0.52631%;
+  display: inline;
+  zoom: 1;
 }
 
 .col15-20 {
-  display: inline;
   float: left;
   width: 74%;
   margin-left: 0.5%;
   margin-right: 0.5%;
-  *width: 73.99999%;
-  *margin-right: 0.49999%;
-  *margin-left: 0.49999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col16-16 {
-  display: inline;
   float: left;
   width: 98.75%;
   margin-left: 0.625%;
   margin-right: 0.625%;
-  *width: 98.74999%;
-  *margin-right: 0.62499%;
-  *margin-left: 0.62499%;
+  display: inline;
+  zoom: 1;
 }
 
 .col16-17 {
-  display: inline;
   float: left;
   width: 92.94118%;
   margin-left: 0.58824%;
   margin-right: 0.58824%;
-  *width: 92.94117%;
-  *margin-right: 0.58823%;
-  *margin-left: 0.58823%;
+  display: inline;
+  zoom: 1;
 }
 
 .col16-18 {
-  display: inline;
   float: left;
   width: 87.77778%;
   margin-left: 0.55556%;
   margin-right: 0.55556%;
-  *width: 87.77777%;
-  *margin-right: 0.55555%;
-  *margin-left: 0.55555%;
+  display: inline;
+  zoom: 1;
 }
 
 .col16-19 {
-  display: inline;
   float: left;
   width: 83.15789%;
   margin-left: 0.52632%;
   margin-right: 0.52632%;
-  *width: 83.15789%;
-  *margin-right: 0.52631%;
-  *margin-left: 0.52631%;
+  display: inline;
+  zoom: 1;
 }
 
 .col16-20 {
-  display: inline;
   float: left;
   width: 79%;
   margin-left: 0.5%;
   margin-right: 0.5%;
-  *width: 78.99999%;
-  *margin-right: 0.49999%;
-  *margin-left: 0.49999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col17-17 {
-  display: inline;
   float: left;
   width: 98.82353%;
   margin-left: 0.58824%;
   margin-right: 0.58824%;
-  *width: 98.82352%;
-  *margin-right: 0.58823%;
-  *margin-left: 0.58823%;
+  display: inline;
+  zoom: 1;
 }
 
 .col17-18 {
-  display: inline;
   float: left;
   width: 93.33333%;
   margin-left: 0.55556%;
   margin-right: 0.55556%;
-  *width: 93.33333%;
-  *margin-right: 0.55555%;
-  *margin-left: 0.55555%;
+  display: inline;
+  zoom: 1;
 }
 
 .col17-19 {
-  display: inline;
   float: left;
   width: 88.42105%;
   margin-left: 0.52632%;
   margin-right: 0.52632%;
-  *width: 88.42105%;
-  *margin-right: 0.52631%;
-  *margin-left: 0.52631%;
+  display: inline;
+  zoom: 1;
 }
 
 .col17-20 {
-  display: inline;
   float: left;
   width: 84%;
   margin-left: 0.5%;
   margin-right: 0.5%;
-  *width: 83.99999%;
-  *margin-right: 0.49999%;
-  *margin-left: 0.49999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col18-18 {
-  display: inline;
   float: left;
   width: 98.88889%;
   margin-left: 0.55556%;
   margin-right: 0.55556%;
-  *width: 98.88888%;
-  *margin-right: 0.55555%;
-  *margin-left: 0.55555%;
+  display: inline;
+  zoom: 1;
 }
 
 .col18-19 {
-  display: inline;
   float: left;
   width: 93.68421%;
   margin-left: 0.52632%;
   margin-right: 0.52632%;
-  *width: 93.68421%;
-  *margin-right: 0.52631%;
-  *margin-left: 0.52631%;
+  display: inline;
+  zoom: 1;
 }
 
 .col18-20 {
-  display: inline;
   float: left;
   width: 89%;
   margin-left: 0.5%;
   margin-right: 0.5%;
-  *width: 88.99999%;
-  *margin-right: 0.49999%;
-  *margin-left: 0.49999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col19-19 {
-  display: inline;
   float: left;
   width: 98.94737%;
   margin-left: 0.52632%;
   margin-right: 0.52632%;
-  *width: 98.94736%;
-  *margin-right: 0.52631%;
-  *margin-left: 0.52631%;
+  display: inline;
+  zoom: 1;
 }
 
 .col19-20 {
-  display: inline;
   float: left;
   width: 94%;
   margin-left: 0.5%;
   margin-right: 0.5%;
-  *width: 93.99999%;
-  *margin-right: 0.49999%;
-  *margin-left: 0.49999%;
+  display: inline;
+  zoom: 1;
 }
 
 .col20-20 {
-  display: inline;
   float: left;
   width: 99%;
   margin-left: 0.5%;
   margin-right: 0.5%;
-  *width: 98.99999%;
-  *margin-right: 0.49999%;
-  *margin-left: 0.49999%;
+  display: inline;
+  zoom: 1;
 }
 
 /* Helper Class: push */
@@ -3066,10 +2666,16 @@ header {
 header .center {
   width: container_width();
   margin: 0 1%;
-  overflow: hidden;
   *zoom: 1;
   position: relative;
   display: block;
+}
+header .center:before, header .center:after {
+  content: "";
+  display: table;
+}
+header .center:after {
+  clear: both;
 }
 header .center a {
   position: absolute;
@@ -3134,14 +2740,12 @@ header .center h2 {
   font-size: 24px;
   padding-bottom: 60px;
   line-height: 38px;
-  display: inline;
   float: left;
   width: 39%;
   margin-left: 0.5%;
   margin-right: 0.5%;
-  *width: 38.99999%;
-  *margin-right: 0.49999%;
-  *margin-left: 0.49999%;
+  display: inline;
+  zoom: 1;
   float: none;
   display: block;
   margin-left: 0px;
@@ -3235,12 +2839,18 @@ nav div {
   margin: 0 auto;
 }
 nav div ul {
-  overflow: hidden;
   *zoom: 1;
   width: container_width();
   margin: 0 1%;
   height: 100%;
   position: relative;
+}
+nav div ul:before, nav div ul:after {
+  content: "";
+  display: table;
+}
+nav div ul:after {
+  clear: both;
 }
 nav div ul li:nth-child(1) {
   text-align: left;
@@ -3314,14 +2924,12 @@ nav div ul #navTwitter {
   filter: alpha(opacity=30);
 }
 #grid div div {
-  display: inline;
   float: left;
   width: 4%;
   margin-left: 0.5%;
   margin-right: 0.5%;
-  *width: 3.99999%;
-  *margin-right: 0.49999%;
-  *margin-left: 0.49999%;
+  display: inline;
+  zoom: 1;
   height: 100%;
   background: black;
 }
@@ -3357,13 +2965,19 @@ footer div h3 {
   letter-spacing: 5px;
 }
 footer div #company {
-  overflow: hidden;
   *zoom: 1;
   width: container_width();
   margin: 0 1%;
   max-width: 1000px;
   text-align: center;
   margin-top: 30px;
+}
+footer div #company:before, footer div #company:after {
+  content: "";
+  display: table;
+}
+footer div #company:after {
+  clear: both;
 }
 footer div #company a {
   text-align: center;
@@ -3377,7 +2991,6 @@ footer div #company a {
   padding-left: 13px;
 }
 footer div #meta {
-  overflow: hidden;
   *zoom: 1;
   width: container_width();
   margin: 0 1%;
@@ -3387,15 +3000,20 @@ footer div #meta {
   padding-bottom: 20px;
   border-top: 1px solid #3b3b3b;
 }
+footer div #meta:before, footer div #meta:after {
+  content: "";
+  display: table;
+}
+footer div #meta:after {
+  clear: both;
+}
 footer div #meta div:first-child {
-  display: inline;
   float: left;
   width: 59%;
   margin-left: 0.5%;
   margin-right: 0.5%;
-  *width: 58.99999%;
-  *margin-right: 0.49999%;
-  *margin-left: 0.49999%;
+  display: inline;
+  zoom: 1;
   text-align: left;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: normal;
@@ -3406,14 +3024,12 @@ footer div #meta div:first-child {
   margin-top: 55px;
 }
 footer div #meta div:nth-child(2) {
-  display: inline;
   float: left;
   width: 59%;
   margin-left: 0.5%;
   margin-right: 0.5%;
-  *width: 58.99999%;
-  *margin-right: 0.49999%;
-  *margin-left: 0.49999%;
+  display: inline;
+  zoom: 1;
   margin-left: 0.5%;
   text-align: center;
 }
@@ -3449,28 +3065,24 @@ footer div #meta div:nth-child(2) a:nth-child(2) {
 }
 @media screen and (min-width: 700px) {
   footer div #meta div:first-child {
-    display: inline;
     float: left;
     width: 44%;
     margin-left: 0.5%;
     margin-right: 0.5%;
-    *width: 43.99999%;
-    *margin-right: 0.49999%;
-    *margin-left: 0.49999%;
+    display: inline;
+    zoom: 1;
     font-size: 12px;
     text-align: left;
     margin-top: 0px;
     line-height: 50px;
   }
   footer div #meta div:nth-child(2) {
-    display: inline;
     float: left;
     width: 14.0%;
     margin-left: 0.5%;
     margin-right: 0.5%;
-    *width: 13.99999%;
-    *margin-right: 0.49999%;
-    *margin-left: 0.49999%;
+    display: inline;
+    zoom: 1;
     margin-left: 45.5%;
     text-align: right;
   }
@@ -3503,18 +3115,22 @@ article div {
   max-width: 1000px;
   *width: 1000px;
   margin: 0 auto;
-  overflow: hidden;
   *zoom: 1;
 }
+.container:before, .container:after {
+  content: "";
+  display: table;
+}
+.container:after {
+  clear: both;
+}
 .container img {
-  display: inline;
   float: left;
   width: 99%;
   margin-left: 0.5%;
   margin-right: 0.5%;
-  *width: 98.99999%;
-  *margin-right: 0.49999%;
-  *margin-left: 0.49999%;
+  display: inline;
+  zoom: 1;
   float: none;
 }
 
@@ -3547,70 +3163,58 @@ article div {
 @media screen and (max-width: 800px) {
   /* Helper Class: Columns */
   .col1 {
-    display: inline;
     float: left;
     width: 9%;
     margin-left: 0.5%;
     margin-right: 0.5%;
-    *width: 8.99999%;
-    *margin-right: 0.49999%;
-    *margin-left: 0.49999%;
+    display: inline;
+    zoom: 1;
   }
 
   .col2 {
-    display: inline;
     float: left;
     width: 19%;
     margin-left: 0.5%;
     margin-right: 0.5%;
-    *width: 18.99999%;
-    *margin-right: 0.49999%;
-    *margin-left: 0.49999%;
+    display: inline;
+    zoom: 1;
   }
 }
 @media screen and (max-width: 600px) {
   .col1 {
-    display: inline;
     float: left;
     width: 19%;
     margin-left: 0.5%;
     margin-right: 0.5%;
-    *width: 18.99999%;
-    *margin-right: 0.49999%;
-    *margin-left: 0.49999%;
+    display: inline;
+    zoom: 1;
   }
 }
 @media screen and (max-width: 400px) {
   .col1 {
-    display: inline;
     float: left;
     width: 49%;
     margin-left: 0.5%;
     margin-right: 0.5%;
-    *width: 48.99999%;
-    *margin-right: 0.49999%;
-    *margin-left: 0.49999%;
+    display: inline;
+    zoom: 1;
   }
 
   .col2 {
-    display: inline;
     float: left;
     width: 24%;
     margin-left: 0.5%;
     margin-right: 0.5%;
-    *width: 23.99999%;
-    *margin-right: 0.49999%;
-    *margin-left: 0.49999%;
+    display: inline;
+    zoom: 1;
   }
 
   .col4 {
-    display: inline;
     float: left;
     width: 49%;
     margin-left: 0.5%;
     margin-right: 0.5%;
-    *width: 48.99999%;
-    *margin-right: 0.49999%;
-    *margin-left: 0.49999%;
+    display: inline;
+    zoom: 1;
   }
 }

@@ -11,6 +11,8 @@
 // //////////////////////
 
 @import 'grid/grid';
+$isfixie: true;
+$min-width: 600;
 
 $container_margin: 3.85%;
 $gutter_width: 3.85%;
@@ -18,7 +20,6 @@ $column-width: 4.8%;
 $columns: 12;
 $total_width: 100%;
 $max_width: 1233px;
-
 
 // //////////////////////
 // MODULE STYLES
@@ -30,7 +31,6 @@ $color_body: #636363;
 $color_headlines: #b7b7b7;
 @import "examples/modules/public";
 #reference{
-	
 	ul{
 		@include clearfix();
 		@include container();
@@ -57,8 +57,6 @@ $color_headlines: #b7b7b7;
 				margin-bottom: 17px;
 				word-wrap:break-word;
 				color: $color_nearlynearlyblack;
-
-				span{
 					font-family: "Courier New", Courier, Georgia, serif;
 					opacity: 0.7;
 					color: $color_nearlynearlyblack;
@@ -77,8 +75,6 @@ $color_headlines: #b7b7b7;
 		}
 
 	}
-	
-} 
 
 
 // ///////////////////////////
@@ -97,7 +93,6 @@ $color_headlines: #b7b7b7;
 }
 #examples{
 	width: $total_width;
-	max-width: $max_width;
 	margin: 0 auto;	
 
 	ul{
