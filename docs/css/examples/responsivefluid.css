@@ -3113,6 +3113,7 @@ article div {
 
 .container {
   max-width: 100%;
+  *width: 1000px;
   margin: 0 auto;
   *zoom: 1;
 }
@@ -3143,6 +3144,9 @@ article div {
   margin-bottom: 0px;
   height: 0px;
   z-index: 1px;
+  *width: 1000px;
+  *left: 50%;
+  *margin-left: -500px;
 }
 #grid div {
   background: none;

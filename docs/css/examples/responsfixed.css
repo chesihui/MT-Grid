@@ -3117,6 +3117,7 @@ article div {
 
 .container {
   width: 1200px;
+  *width: 1200px !important;
   margin: 0 auto;
   *zoom: 1;
 }
@@ -3148,6 +3149,9 @@ article div {
   z-index: 1px;
   height: 100%;
   width: 1200px;
+  *width: 1200px !important;
+  *left: 50%;
+  *margin-left: -600px;
 }
 #grid div {
   background: none;

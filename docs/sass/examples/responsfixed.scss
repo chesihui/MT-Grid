@@ -64,6 +64,7 @@ article div{
 
 .container{
 	width:$max_width;
+	*width:1200px !important;
 	margin:0 auto;
 	@include clearfix();
 	img {
@@ -81,6 +82,9 @@ article div{
 	z-index: 1px;
 	height:100%;
 	width:$max_width;
+	*width:1200px !important;
+	*left:50%;
+	*margin-left:-600px;
 
 	div{
 		background: none;
